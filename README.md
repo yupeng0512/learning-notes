@@ -6,7 +6,7 @@
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 8 |
+| AI 工具与效率 | 12 |
 | 编程技术 | 3 |
 | 系统架构 | 0 |
 | 方法论 | 0 |
@@ -22,6 +22,10 @@
 | 2026-01-04 | Vibe Coding - AI 辅助开发方法论 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-vibe-coding-methodology.md) |
 | 2026-01-04 | Awesome LLM Apps - LLM 应用案例集合 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-awesome-llm-apps.md) |
 | 2026-01-04 | Agentic Patterns - AI Agent 设计模式原理 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-agentic-patterns.md) |
+| 2026-01-04 | Anthropic Advanced Tool Use 三件套 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-anthropic-advanced-tool-use.md) |
+| 2026-01-04 | Claude Code 创始人 Boris 的 13 个技巧 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-boris-claude-code-tips.md) |
+| 2026-01-04 | GitHub 开源项目精读（5 个 AI/开发工具） | AI 工具与效率 | [查看](./ai-tools/2026-01-04-github-projects-batch.md) |
+| 2026-01-04 | Slidev - 开发者演示文稿工具 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-slidev-guide.md) |
 | 2026-01-04 | Celery 任务调度机制深度解析 | 编程技术 | [查看](./programming/2026-01-04-celery-task-scheduling-design.md) |
 | 2026-01-04 | Prompt Engineering 提示词工程 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-prompt-engineering.md) |
 | 2026-01-04 | 苏格拉底式提问与 AskUserQuestion | AI 工具与效率 | [查看](./ai-tools/2026-01-04-askuserquestion-socratic-method.md) |
@@ -38,6 +42,10 @@
 - [2026-01-04] [Vibe Coding - AI 辅助开发方法论](./ai-tools/2026-01-04-vibe-coding-methodology.md)
 - [2026-01-04] [Awesome LLM Apps - LLM 应用案例集合](./ai-tools/2026-01-04-awesome-llm-apps.md)
 - [2026-01-04] [Agentic Patterns - AI Agent 设计模式原理](./ai-tools/2026-01-04-agentic-patterns.md)
+- [2026-01-04] [Anthropic Advanced Tool Use 三件套](./ai-tools/2026-01-04-anthropic-advanced-tool-use.md)
+- [2026-01-04] [Claude Code 创始人 Boris 的 13 个技巧](./ai-tools/2026-01-04-boris-claude-code-tips.md)
+- [2026-01-04] [GitHub 开源项目精读（5 个 AI/开发工具）](./ai-tools/2026-01-04-github-projects-batch.md)
+- [2026-01-04] [Slidev - 开发者演示文稿工具](./ai-tools/2026-01-04-slidev-guide.md)
 - [2026-01-04] [Prompt Engineering 提示词工程](./ai-tools/2026-01-04-prompt-engineering.md)
 - [2026-01-04] [苏格拉底式提问与 AskUserQuestion](./ai-tools/2026-01-04-askuserquestion-socratic-method.md)
 - [2026-01-02] [UI/UX Pro Max Skill 与 Zed ACP 协议](./ai-tools/2026-01-02-ui-ux-skill-and-acp-protocol.md)
