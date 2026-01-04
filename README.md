@@ -1,13 +1,13 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-02
+> 最后更新：2026-01-04
 
 ## 快速统计
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 2 |
-| 编程技术 | 2 |
+| AI 工具与效率 | 4 |
+| 编程技术 | 3 |
 | 系统架构 | 0 |
 | 方法论 | 0 |
 | 职业发展 | 0 |
@@ -18,9 +18,10 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-04 | Celery 任务调度机制深度解析 | 编程技术 | [查看](./programming/2026-01-04-celery-task-scheduling-design.md) |
+| 2026-01-04 | Prompt Engineering 提示词工程 | AI 工具与效率 | [查看](./ai-tools/2026-01-04-prompt-engineering.md) |
+| 2026-01-04 | 苏格拉底式提问与 AskUserQuestion | AI 工具与效率 | [查看](./ai-tools/2026-01-04-askuserquestion-socratic-method.md) |
 | 2026-01-02 | UI/UX Pro Max Skill 与 Zed ACP 协议 | AI 工具与效率 | [查看](./ai-tools/2026-01-02-ui-ux-skill-and-acp-protocol.md) |
-| 2025-12-29 | Clean Code Python 版 | 编程技术 | [查看](./programming/2025-12-29-clean-code-python.md) |
-| 2025-12-29 | Python 设计模式完全指南 | 编程技术 | [查看](./programming/2025-12-29-python-design-patterns.md) |
 | 2025-12-29 | Claude Code 2.0 完全使用指南 | AI 工具与效率 | [查看](./ai-tools/2025-12-29-claude-code-guide.md) |
 
 ---
@@ -29,11 +30,14 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-04] [Prompt Engineering 提示词工程](./ai-tools/2026-01-04-prompt-engineering.md)
+- [2026-01-04] [苏格拉底式提问与 AskUserQuestion](./ai-tools/2026-01-04-askuserquestion-socratic-method.md)
 - [2026-01-02] [UI/UX Pro Max Skill 与 Zed ACP 协议](./ai-tools/2026-01-02-ui-ux-skill-and-acp-protocol.md)
 - [2025-12-29] [Claude Code 2.0 完全使用指南](./ai-tools/2025-12-29-claude-code-guide.md)
 
 ### 💻 编程技术 (`programming/`)
 
+- [2026-01-04] [Celery 任务调度机制深度解析](./programming/2026-01-04-celery-task-scheduling-design.md)
 - [2025-12-29] [Python 设计模式完全指南](./programming/2025-12-29-python-design-patterns.md)
 - [2025-12-29] [Clean Code Python 版 - 代码整洁之道](./programming/2025-12-29-clean-code-python.md)
 
