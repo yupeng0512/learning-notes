@@ -348,13 +348,38 @@ client.beta.messages.create(
 
 ---
 
-## 官方资源
+## 行动清单
 
-- [Tool Search Tool 文档](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/tool-search-tool)
-- [Tool Search + 向量检索示例](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/tool_search_tool.ipynb)
-- [Programmatic Tool Calling 文档](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/programmatic-tool-calling)
-- [PTC 示例 notebook](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/programmatic_tool_calling.ipynb)
-- [Tool Use Examples 使用说明](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/tool-use-examples)
+- [ ] 阅读 Tool Search Tool 官方文档，理解延迟加载机制
+- [ ] 在有 10+ 工具的项目中尝试 `defer_loading` 配置
+- [ ] 用 PTC 重构一个多步骤数据处理任务
+- [ ] 为复杂工具添加 `input_examples` 提升准确率
+
+---
+
+## 📝 金句摘录
+
+> "真正强大的 Agent，不是参数多、schema 花哨，而是能在工具巨多、数据巨大、约定巨多的情况下，依然找到对的工具、用对的参数、在对的地方看结果。"
+
+> "让 Agent 更像一个靠谱的工程同事：该查文档时查文档，该写脚本时写脚本，该少说废话时，老老实实给结果。"
+
+> "工具结果先进代码执行环境，在那儿完成循环、条件、聚合，最后只把'结论'送回上下文。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [Tool Search Tool 文档](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/tool-search-tool) - 工具搜索官方指南
+- [Tool Search + 向量检索示例](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/tool_search_tool.ipynb) - Cookbook 实战示例
+- [Programmatic Tool Calling 文档](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/programmatic-tool-calling) - PTC 官方指南
+- [PTC 示例 Notebook](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/programmatic_tool_calling.ipynb) - PTC 实战示例
+- [Tool Use Examples 使用说明](https://docs.anthropic.com/en/docs/build-with-claude/tool-use/tool-use-examples) - 工具示例官方指南
 
 ---
 

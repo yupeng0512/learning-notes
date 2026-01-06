@@ -192,15 +192,26 @@ interface Client {
 
 ---
 
+## 📝 金句摘录
+
+> "ACP 之于 Agent，就像 LSP 之于语言服务器——定义标准接口，让生态繁荣。"
+
+> "AI 需要'品味'——单纯的代码生成能力不够，需要设计知识库支撑。"
+
+> "标准化前: N 个编辑器 × M 个 Agent = N×M 个适配器；标准化后: N + M 个实现即可互通。"
+
+---
+
 ## 个人思考
 
 {留空，供后续补充}
 
 ---
 
-## 延伸阅读
+## 📚 延伸阅读
 
-- ACP 官方规范：https://agentclientprotocol.com/
-- MCP 协议详解：https://modelcontextprotocol.io/
-- Zed 完整文档：https://zed.dev/docs/
-- UI/UX Pro Max Skill：https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+- [ACP 官方规范](https://agentclientprotocol.com/) - Agent Client Protocol 完整规范文档
+- [MCP 协议详解](https://modelcontextprotocol.io/) - Anthropic 的 Model Context Protocol 官方文档
+- [Zed 完整文档](https://zed.dev/docs/) - Zed 编辑器官方使用指南
+- [UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) - AI 设计技能包源码仓库
+- [LSP 协议规范](https://microsoft.github.io/language-server-protocol/) - 理解 ACP 设计灵感来源

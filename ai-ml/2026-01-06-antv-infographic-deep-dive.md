@@ -276,9 +276,29 @@ PPT 手动画 → Canva 模板 → AI 生成（不可控）→ Infographic（AI 
 
 ---
 
-## 延伸资源
+## 📝 金句摘录
 
-- **在线体验**：https://infographic.antv.vision
-- **AI 生成入口**：https://infographic.antv.vision/ai
-- **模板库**：https://infographic.antv.vision/gallery
-- **GitHub**：https://github.com/antvis/Infographic
+> "4 年之前你绝对想不到，我们发现 AGI 的重要组成部分竟然是 Markdown 文档。"
+
+> "当创作主体从人类转向 AI 时，代码比数据更自然。AI 是'类人创作者'，更擅长理解和生成语义丰富的结构。"
+
+> "Infographic 打破了'免费、可控、可集成'的不可能三角。"
+
+> "双向可读是关键——AI 生成 → 人类修改 → AI 继续，形成真正的人机协同。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [AntV Infographic 官网](https://infographic.antv.vision) - 在线体验
+- [AI 生成入口](https://infographic.antv.vision/ai) - AI 生成信息图
+- [模板库](https://infographic.antv.vision/gallery) - 218 个内置模板
+- [GitHub 仓库](https://github.com/antvis/Infographic) - 项目源码
+- [AntV 官网](https://antv.vision/) - AntV 可视化生态
+- [G2 图表库](https://g2.antv.vision/) - AntV 数据可视化引擎

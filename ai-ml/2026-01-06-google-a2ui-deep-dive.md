@@ -316,8 +316,29 @@ A2UI 模式：AI 生成意图 → 客户端解释 → 原生渲染
 
 ---
 
-## 延伸资源
+## 📝 金句摘录
 
-- **GitHub**：https://github.com/google/A2UI
-- **Flutter GenUI SDK**：使用 A2UI 作为底层技术
-- **CopilotKit A2UI Widget Builder**：可视化生成 A2UI JSON
+> "如果说 ChatGPT 让 AI 学会了说话，那么 A2UI 就是给了 AI 一支画笔，让它能够用界面与人类交流。"
+
+> "像数据一样安全，像代码一样强大——这是 A2UI 的核心设计理念。"
+
+> "未来的聊天机器人可能不再只是一个对话框，而是一个能根据你的需求随时变身的全能 App。"
+
+> "邻接表模型的精髓：LLM 可以一个接一个输出组件，不需要等待完整树。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [A2UI GitHub](https://github.com/google/A2UI) - 项目源码
+- [A2UI 协议规范](https://github.com/google/A2UI/blob/main/spec.md) - 完整协议文档
+- [Flutter GenUI SDK](https://pub.dev/packages/gen_ui_flutter) - Flutter 渲染器
+- [CopilotKit](https://www.copilotkit.ai/) - AI Copilot 框架
+- [AG-UI 协议](https://github.com/CopilotKit/CopilotKit/tree/main/packages/ag-ui) - Agent-User 交互协议
+- [MCP 协议](https://modelcontextprotocol.io/) - Model Context Protocol

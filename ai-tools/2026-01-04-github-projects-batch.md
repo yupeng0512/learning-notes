@@ -409,9 +409,28 @@ pip install -r requirements-dev.txt
 
 ---
 
-## 延伸阅读
+## 📝 金句摘录
 
-- [GPUI 官方文档](https://gpui.rs/)
-- [Open Notebook 官网](https://www.open-notebook.ai)
-- [Agent Lightning 文档](https://microsoft.github.io/agent-lightning/)
-- [Claude API 文档](https://docs.anthropic.com/)
+> "隐私优先不是口号，是架构选择——所有处理本地完成，无需联网。"
+
+> "多模型策略的本质是避免厂商锁定，通过抽象层支持 16+ 家 AI 提供商。"
+
+> "官方 Cookbook 是最权威的使用指南——可复制的代码片段，持续更新的最佳实践。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [Handy GitHub](https://github.com/cjpais/Handy) - 离线语音转文字项目
+- [Open Notebook GitHub](https://github.com/lfnovo/open-notebook) - NotebookLM 开源替代
+- [gpui-component GitHub](https://github.com/longbridge/gpui-component) - Rust GUI 组件库
+- [Agent Lightning GitHub](https://github.com/microsoft/agent-lightning) - 微软 Agent 训练框架
+- [Claude Cookbooks GitHub](https://github.com/anthropics/claude-cookbooks) - Claude 官方示例
+- [GPUI 官方文档](https://gpui.rs/) - GPUI 渲染引擎文档
+- [Agent Lightning 文档](https://microsoft.github.io/agent-lightning/) - 框架使用指南

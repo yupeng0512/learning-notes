@@ -252,15 +252,28 @@ config.setting = "custom"
 
 ---
 
+## 📝 金句摘录
+
+> "设计模式是解决软件设计中常见问题的最佳实践方案，每种模式都有其权衡取舍。"
+
+> "Python 特色：模块天然单例、鸭子类型简化接口、装饰器语法糖。"
+
+> "不要为了用模式而用模式——简单优先。"
+
+> "能组合不继承——组合优于继承是 Python 的哲学。"
+
+---
+
 ## 个人思考
 
 {留空，供后续补充}
 
 ---
 
-## 延伸阅读
+## 📚 延伸阅读
 
-- [Refactoring Guru - 设计模式图解](https://refactoringguru.cn/design-patterns)
+- [Refactoring Guru - 设计模式图解](https://refactoringguru.cn/design-patterns) - 可视化学习设计模式
+- [faif/python-patterns GitHub](https://github.com/faif/python-patterns) - Python 设计模式集合
 - [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) - 更详细的模式说明
-- 《Head First 设计模式》
-- 《Python Cookbook》第 8 章 - 类与对象
+- [《Head First 设计模式》](https://www.oreilly.com/library/view/head-first-design/0596007124/) - 入门经典
+- [《Python Cookbook》](https://www.oreilly.com/library/view/python-cookbook-3rd/9781449357337/) - 第 8 章 类与对象

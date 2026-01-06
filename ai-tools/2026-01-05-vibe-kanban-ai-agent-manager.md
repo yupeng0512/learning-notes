@@ -232,11 +232,15 @@ git worktree add ../worktrees/feature-b feature-b
 4. **不绑定特定 AI，按任务难度分配最合适的 Agent**
 5. **MCP 双向集成，可融入更大的 AI 工作流生态**
 
-### 金句摘录
+### 📝 金句摘录
 
 > "我们缺的不是更聪明的 AI，而是一个能管理这些 AI 的系统。"
 
 > "Vibe kanban is the biggest increase I've had in productivity since cursor." — Luke Harries, Eleven Labs
+
+> "Vibe Kanban 不是 AI 编程工具，是 AI 编程工具的'包工头'。"
+
+> "Git Worktree 实现物理隔离，让多个 AI 真正并行工作。"
 
 ### 与 MCP 的关联
 
@@ -248,8 +252,16 @@ git worktree add ../worktrees/feature-b feature-b
 
 ---
 
-## 延伸阅读
+## 个人思考
 
-- [Vibe Kanban GitHub](https://github.com/BloopAI/vibe-kanban)
-- [Git Worktree 官方文档](https://git-scm.com/docs/git-worktree)
-- [MCP 协议规范](https://modelcontextprotocol.io/)
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [Vibe Kanban GitHub](https://github.com/BloopAI/vibe-kanban) - 项目源码
+- [Vibe Kanban 官网](https://www.vibekanban.com/) - 产品官网
+- [Git Worktree 官方文档](https://git-scm.com/docs/git-worktree) - Worktree 使用指南
+- [MCP 协议规范](https://modelcontextprotocol.io/) - MCP 官方文档
+- [BloopAI 官网](https://bloop.ai/) - 开发团队

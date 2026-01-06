@@ -301,20 +301,34 @@ Step 5: 在实际项目中应用
 - [ ] 尝试组合多种模式解决一个实际问题
 - [ ] 对比 LangChain 的实现，加深理解
 
-## 相关资源
+---
 
-- **GitHub**：https://github.com/neural-maze/agentic_patterns
-- **Groq API**：https://console.groq.com/
-- **Andrew Ng 的 Agent 课程**：https://www.deeplearning.ai/
-- **LangChain 文档**：https://python.langchain.com/
-- **CrewAI 文档**：https://docs.crewai.com/
+## 📝 金句摘录
 
-## 思考题
+> "使用框架可以快速开发，但理解原理才能走得更远。"
 
+> "框架是封装，原理是本质。理解原理 → 更好地使用框架 → 能够定制和扩展 → 遇到问题能调试。"
+
+> "ReAct = Reasoning + Acting，让 LLM 边思考边行动，而非一次性输出。"
+
+> "多代理的本质是分工——每个代理专注一个角色，通过 DAG 定义执行顺序。"
+
+---
+
+## 个人思考
+
+**思考题**：
 1. 在你的工作中，哪种代理模式最有用？
 2. 你会如何组合这些模式来解决一个实际问题？
 3. 理解原理后，你对 LangChain 的使用有什么新认识？
 
 ---
 
-> 💡 **学习心得**：使用框架可以快速开发，但理解原理才能走得更远。这个项目是连接"会用"和"精通"的桥梁。
+## 📚 延伸阅读
+
+- [agentic_patterns GitHub](https://github.com/neural-maze/agentic_patterns) - 项目源码和 Notebook 教程
+- [Groq API Console](https://console.groq.com/) - 免费的高速 LLM API
+- [Andrew Ng 的 Agent 课程](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/) - DeepLearning.AI 官方 Agent 课程
+- [LangChain 文档](https://python.langchain.com/docs/concepts/agents/) - Agent 模块官方文档
+- [CrewAI 文档](https://docs.crewai.com/) - 多代理框架官方文档
+- [ReAct 论文](https://arxiv.org/abs/2210.03629) - ReAct: Synergizing Reasoning and Acting in Language Models

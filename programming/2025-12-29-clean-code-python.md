@@ -797,15 +797,28 @@ do_stuff()
 
 ---
 
+## 📝 金句摘录
+
+> "代码质量与其整洁度成正比，好代码应该是可读、可复用、可重构的。"
+
+> "好的命名胜过注释——命名即文档。"
+
+> "一个函数只做一件事，函数名应说明其功能。"
+
+> "组合优于继承——Python 更推崇组合和委托。"
+
+---
+
 ## 个人思考
 
 {留空，供后续补充}
 
 ---
 
-## 延伸阅读
+## 📚 延伸阅读
 
-- 《Clean Code》Robert C. Martin
-- 《Refactoring》Martin Fowler
-- 《The Pragmatic Programmer》
-- [PEP 8 - Python 代码风格指南](https://peps.python.org/pep-0008/)
+- [《Clean Code》Robert C. Martin](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - 原著
+- [《Refactoring》Martin Fowler](https://refactoring.com/) - 重构经典
+- [《The Pragmatic Programmer》](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/) - 程序员修炼之道
+- [PEP 8 - Python 代码风格指南](https://peps.python.org/pep-0008/) - 官方风格指南
+- [clean-code-javascript GitHub](https://github.com/ryanmcdermott/clean-code-javascript) - JS 版原文

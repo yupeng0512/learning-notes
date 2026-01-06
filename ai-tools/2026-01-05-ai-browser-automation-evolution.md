@@ -289,16 +289,28 @@ Dev Browser：
 
 ---
 
-## 金句摘录
+## 📝 金句摘录
 
 > "AI 操控浏览器最大的痛点是什么？又慢！又贵！又笨！"
 
 > "我们缺的不是更强的 AI，而是更好的架构设计。"
 
+> "32 个工具函数占用 13,600 Token——还没干活，就占用了 8% 的'脑容量'！"
+
+> "有状态服务 + 持久化连接：保持'会话'而非每次'重新登录'。"
+
 ---
 
-## 相关资源
+## 个人思考
 
-- [Dev Browser GitHub](https://github.com/SawyerHood/dev-browser)
-- [Playwright Skill GitHub](https://github.com/lackeyjb/playwright-skill)
-- [Dev Browser 文档](https://zread.ai/SawyerHood/dev-browser/3-choosing-your-mode-standalone-vs-extension)
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [Dev Browser GitHub](https://github.com/SawyerHood/dev-browser) - 第三代方案源码
+- [Playwright Skill GitHub](https://github.com/lackeyjb/playwright-skill) - 第二代方案源码
+- [Dev Browser 文档](https://zread.ai/SawyerHood/dev-browser/3-choosing-your-mode-standalone-vs-extension) - 使用指南
+- [Playwright MCP](https://github.com/anthropics/anthropic-quickstarts/tree/main/mcp-playwright) - 第一代方案
+- [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/) - CDP 协议文档

@@ -149,14 +149,30 @@ vibe-coding-cn/
 
 ---
 
-## 🤔 思考题
+## 📝 金句摘录
 
-你目前用 AI 写代码时，最大的痛点是什么？Vibe Coding 的哪个理念可以解决它？
+> "不是让 AI 随便写代码，而是用「规划 + 约束 + 上下文」让 AI 成为靠谱的结对程序员。"
+
+> "AI 需要'约束'而非'自由'——不约束的 AI 会自由发挥，导致代码风格不一致、架构混乱。"
+
+> "设计文档不是给人看的，是给 AI 看的。"
+
+> "模块化是 AI 协作的基础——每次只改一个模块，完成后立即 Git 提交。"
 
 ---
 
-## 📚 相关资源
+## 个人思考
 
-- [GitHub 仓库](https://github.com/2025Emma/vibe-coding-cn)
-- [Telegram 交流群](https://t.me/glue_coding)
-- [提示词表格](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit)
+**思考题**：你目前用 AI 写代码时，最大的痛点是什么？Vibe Coding 的哪个理念可以解决它？
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [vibe-coding-cn GitHub](https://github.com/2025Emma/vibe-coding-cn) - 项目仓库
+- [Telegram 交流群](https://t.me/glue_coding) - 社区讨论
+- [提示词表格](https://docs.google.com/spreadsheets/d/1ngoQOhJqdguwNAilCl1joNwTje7FWWN9WiI2bo5VhpU/edit) - 提示词资源
+- [Cursor 官网](https://cursor.sh/) - AI 原生 IDE
+- [Continue 插件](https://continue.dev/) - VS Code AI 插件

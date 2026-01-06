@@ -231,11 +231,32 @@ Prompt 技术
 
 ---
 
-## 参考资源
+## 📝 金句摘录
 
-- 吴恩达 Prompt Engineering 课程
-- OpenAI Prompt Engineering Guide
-- Salesforce/MIT/Columbia 密度链研究
+> "Prompt 的作用是精准唤醒已有能力，而非'教会'新知识。类比：图书馆已有所有书籍，Prompt 是帮你找到正确书架的索引卡。"
+
+> "模型的'思考'本质是需求拆解 + 上下文整合。"
+
+> "'让我们逐步思考' = 触发 Plan 阶段，一句话就能提升复杂任务表现。"
+
+> "不同复杂度的任务需要不同的推理策略——简单任务零样本，复杂任务思维树。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [吴恩达 Prompt Engineering 课程](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/) - DeepLearning.AI 官方课程
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - OpenAI 官方指南
+- [Anthropic Prompt Engineering](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) - Anthropic 官方指南
+- [Chain-of-Thought 论文](https://arxiv.org/abs/2201.11903) - CoT 原始论文
+- [Tree-of-Thought 论文](https://arxiv.org/abs/2305.10601) - ToT 原始论文
+- [ReAct 论文](https://arxiv.org/abs/2210.03629) - ReAct 框架论文
 
 ---
 

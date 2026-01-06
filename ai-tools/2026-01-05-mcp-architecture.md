@@ -186,3 +186,29 @@ Client                          Server
 3. **六原语**：Tools、Resources、Prompts | Sampling、Elicitation、Logging
 4. **有状态**：必须 initialize → work → close
 5. **动态发现**：工具列表可实时变更，通过 notification 通知
+
+---
+
+## 📝 金句摘录
+
+> "Host 是'老板'，管理多个 Client；Client 是'员工'，负责维护 Server 连接；Server 是'外包商'，提供具体能力。"
+
+> "MCP 的价值：把 Tool Use 从'硬编码'变成'即插即用'。"
+
+> "分层设计的精髓：数据层定义'说什么'，传输层定义'怎么说'。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [MCP 架构文档](https://modelcontextprotocol.io/docs/learn/architecture) - 官方架构说明
+- [MCP Server 概念](https://modelcontextprotocol.io/docs/learn/server-concepts) - 服务器端原语详解
+- [MCP Client 概念](https://modelcontextprotocol.io/docs/learn/client-concepts) - 客户端能力详解
+- [JSON-RPC 2.0 规范](https://www.jsonrpc.org/specification) - 通信协议规范
+- [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - 官方 SDK

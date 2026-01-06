@@ -331,6 +331,26 @@ Client 调用 Host 的 LLM
 
 ---
 
-## 相关文档
+## 📝 金句摘录
 
-- [MCP 架构概述](./2026-01-05-mcp-architecture.md)
+> "为什么要区分 Tools 和 Resources？答案：安全性。Tools 可以产生副作用，需要更严格的控制；Resources 只读，风险更低。"
+
+> "Roots 是协调机制，不是安全边界——它帮助 Server 理解工作范围，防止意外行为，但不能阻止恶意行为。"
+
+> "Server 本身没有 LLM 能力，但通过 Sampling 可以'借用' Host 的 LLM 能力。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [MCP 架构概述](./2026-01-05-mcp-architecture.md) - 本地关联笔记
+- [MCP Server 文档](https://modelcontextprotocol.io/docs/learn/server-concepts) - 官方服务器概念
+- [MCP Client 文档](https://modelcontextprotocol.io/docs/learn/client-concepts) - 官方客户端概念
+- [MCP 协议规范](https://modelcontextprotocol.io/docs/spec) - 完整协议规范
+- [MCP 示例项目](https://github.com/modelcontextprotocol/servers) - 官方 Server 示例

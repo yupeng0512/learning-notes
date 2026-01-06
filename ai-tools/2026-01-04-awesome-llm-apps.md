@@ -168,14 +168,28 @@ Week 4: 进阶
 
 ---
 
-## 🤔 思考题
+## 📝 金句摘录
 
-在这 60+ 个应用中，哪个最接近你想做的产品？你会如何改进它？
+> "不是教你理论，而是给你 60+ 个可运行的 LLM 应用，直接抄作业。"
+
+> "从单代理到多代理的进化路径：单代理 → 工具增强代理 → 多代理协作 → 自我进化代理"
+
+> "RAG 是 LLM 应用的基础设施——几乎所有实用应用都需要 RAG。"
 
 ---
 
-## 📚 相关资源
+## 个人思考
 
-- [GitHub 仓库](https://github.com/Shubhamsaboo/awesome-llm-apps)
-- [CrewAI 文档](https://docs.crewai.com/)
-- [OpenAI Agent SDK](https://platform.openai.com/docs/guides/agents)
+**思考题**：在这 60+ 个应用中，哪个最接近你想做的产品？你会如何改进它？
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [awesome-llm-apps GitHub](https://github.com/Shubhamsaboo/awesome-llm-apps) - 项目源码仓库
+- [CrewAI 文档](https://docs.crewai.com/) - 多代理框架官方文档
+- [OpenAI Agent SDK](https://platform.openai.com/docs/guides/agents) - OpenAI 官方 Agent 指南
+- [LangChain RAG 教程](https://python.langchain.com/docs/tutorials/rag/) - RAG 实现详解
+- [Google ADK 文档](https://ai.google.dev/adk) - Google Agent Development Kit

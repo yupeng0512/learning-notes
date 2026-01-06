@@ -445,10 +445,28 @@ pnpm dev
 
 ---
 
-## 参考资源
+## 📝 金句摘录
 
-- **官方文档**：https://sli.dev
-- **GitHub**：https://github.com/slidevjs/slidev
-- **主题画廊**：https://sli.dev/themes/gallery
-- **Discord 社区**：https://chat.sli.dev
-- **在线演示**：https://sli.dev/new
+> "用写代码的方式写 PPT——Markdown 驱动，专注内容。"
+
+> "对于需要经常做技术分享的开发者，Slidev 是目前最好的选择。"
+
+> "代码优先：原生代码高亮，Monaco 实时编辑，让技术演示不再痛苦。"
+
+---
+
+## 个人思考
+
+{留空，供后续补充}
+
+---
+
+## 📚 延伸阅读
+
+- [Slidev 官方文档](https://sli.dev) - 完整使用指南
+- [Slidev GitHub](https://github.com/slidevjs/slidev) - 项目源码
+- [主题画廊](https://sli.dev/themes/gallery) - 官方主题集合
+- [Discord 社区](https://chat.sli.dev) - 社区交流
+- [在线演示](https://sli.dev/new) - 快速体验
+- [Vite 官方文档](https://vitejs.dev/) - 构建工具
+- [UnoCSS 文档](https://unocss.dev/) - 原子化 CSS 引擎
