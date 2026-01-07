@@ -1,0 +1,183 @@
+---
+title: Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems
+source: https://github.com/sarwarbeing-ai/Agentic_Design_Patterns
+author: Antonio Gulli (Google 资深工程师)
+date: 2026-01-07
+category: ai-tools
+tags: [智能体, 设计模式, LangChain, CrewAI, Google ADK, MCP, 多智能体协作]
+---
+
+# Agentic Design Patterns: 智能体设计模式完整指南
+
+> 📖 原文：[Agentic Design Patterns](https://github.com/sarwarbeing-ai/Agentic_Design_Patterns)
+> 📅 学习日期：2026-01-07
+> 🏷️ 分类：AI 工具与效率
+
+---
+
+## 一句话总结
+
+这是一本将 AI 智能体设计模式系统化的实战指南，从基础的提示链到复杂的多智能体协作，涵盖 21 种核心模式，配套完整的 Python 代码实现。
+
+---
+
+## 核心要点
+
+1. **模式可组合**：21 种模式不是孤立的，可以像乐高积木一样组合使用
+2. **反思是关键**：Reflection 模式是 Agent 从"工具"升级为"智能体"的核心能力
+3. **安全不可缺**：Guardrails 必须在设计阶段就考虑，而非事后补丁
+4. **标准化趋势**：MCP 和 A2A 正在成为 Agent 生态的"USB 标准"
+5. **渐进式采用**：从简单模式（Prompt Chaining）开始，逐步引入复杂模式
+
+---
+
+## 21 种设计模式全景图
+
+### 基础层 (Foundation)
+- **Ch1. Prompt Chaining**：线性链式调用，将复杂任务分解为多个提示序列
+- **Ch2. Routing**：动态任务分发，根据输入特征智能路由到专业处理器
+- **Ch3. Parallelization**：并行执行，同时处理多个独立任务
+- **Ch4. Reflection**：自我反思改进，生成→评估→改进的迭代循环
+- **Ch5. Tool Use**：工具调用扩展，通过外部 API 扩展能力边界
+
+### 协作层 (Collaboration)
+- **Ch6. Planning**：任务规划分解，将目标拆解为可执行的步骤
+- **Ch7. Multi-Agent**：多智能体协作，不同角色的 Agent 分工合作
+- **Ch8. Memory Management**：状态与记忆管理，短期和长期记忆的协同
+- **Ch9. Adaptation**：动态适应调整，根据反馈调整行为策略
+
+### 通信层 (Communication)
+- **Ch10. MCP**：模型上下文协议，标准化的工具接口
+- **Ch11. Goal Monitoring**：目标设定与监控，追踪任务进度和完成度
+- **Ch12. Exception Handling**：异常处理恢复，容错和降级机制
+- **Ch13. Human-in-the-Loop**：人机协作介入，关键决策点的人工确认
+- **Ch14. Knowledge Retrieval**：RAG 知识增强，外部知识库的检索整合
+- **Ch15. A2A Communication**：智能体间通信，Agent 之间的标准化协议
+
+### 运维层 (Operations)
+- **Ch16. Resource Optimization**：资源成本优化，性能与成本的平衡
+- **Ch17. Reasoning Techniques**：推理技术增强，CoT、自纠正等方法
+- **Ch18. Guardrails/Safety**：安全护栏边界，输入输出的安全验证
+- **Ch19. Evaluation/Monitoring**：评估与监控，质量评估和可观测性
+- **Ch20. Prioritization**：任务优先级调度，资源分配和任务排序
+- **Ch21. Exploration**：自主探索发现，创新和自主学习能力
+
+---
+
+## 关键概念
+
+| 概念 | 定义 | 应用场景 |
+|------|------|----------|
+| **Prompt Chaining** | 将复杂任务分解为多个提示的线性序列 | 信息提取→格式转换→结果输出 |
+| **Routing** | 根据输入特征将请求动态分发到专业处理器 | 客服系统、多领域问答 |
+| **Reflection** | Agent 对自身输出进行批判性评估并迭代改进 | 代码生成、文章写作 |
+| **Multi-Agent** | 多个专业 Agent 协作完成复杂任务 | 内容创作团队、研发流程 |
+| **Guardrails** | 输入验证、输出校验、行为约束的安全机制 | 生产环境部署 |
+| **MCP** | Anthropic 提出的工具标准化协议 | 文件系统、数据库访问 |
+| **Memory Management** | 短期（对话）和长期（持久化）记忆的管理 | 有状态对话、知识积累 |
+
+---
+
+## 实用技巧
+
+| 模式 | 技巧 | 操作方法 | 效果 |
+|------|------|----------|------|
+| **提示链** | 使用 LCEL 构建管道 | `prompt1 \| llm \| parser \| prompt2` | 可调试、可复用 |
+| **路由** | LLM 作为 Router | 定义子 Agent 描述，协调器自动分发 | 智能分发、易扩展 |
+| **反思** | 设置最大迭代次数 | 生成→评估→改进，max_iterations=3 | 质量提升、避免死循环 |
+| **多智能体** | 定义角色+目标+背景 | CrewAI 的 Agent 和 Task 定义 | 专业分工、交叉验证 |
+| **安全护栏** | Pydantic 结构验证 | 输入过滤+输出验证+业务规则检查 | 安全可靠、格式规范 |
+| **MCP** | 标准化工具接口 | MCPToolset 连接各种 MCP Server | 一次开发、多处复用 |
+
+---
+
+## 技术栈推荐
+
+| 场景 | 推荐框架 | 说明 |
+|------|----------|------|
+| 快速原型 | LangChain | 丰富的组件和社区支持 |
+| 复杂工作流 | LangGraph | 状态机和条件分支 |
+| 多智能体 | CrewAI | 角色定义和任务协作 |
+| Google 生态 | Google ADK | 与 Gemini 深度集成 |
+| 工具标准化 | MCP | 未来的工具协议标准 |
+
+---
+
+## 模式选择决策树
+
+```
+需要构建 Agent 系统？
+│
+├─ 任务可分解？ ─────────────→ Prompt Chaining
+│
+├─ 需要动态分发？ ───────────→ Routing
+│
+├─ 需要自我改进？ ───────────→ Reflection
+│
+├─ 需要多角色协作？ ─────────→ Multi-Agent
+│
+├─ 需要调用外部工具？ ───────→ Tool Use / MCP
+│
+├─ 需要记住历史？ ───────────→ Memory Management
+│
+├─ 需要人工确认？ ───────────→ Human-in-the-Loop
+│
+└─ 需要安全控制？ ───────────→ Guardrails
+```
+
+---
+
+## 行动清单
+
+### 立即可做（今天）
+- [ ] 克隆项目仓库：`git clone https://github.com/sarwarbeing-ai/Agentic_Design_Patterns.git`
+- [ ] 运行 Prompt Chaining 示例（notebooks/Chapter 1）
+- [ ] 尝试 Reflection 模式（notebooks/Chapter 4）
+
+### 短期实践（本周）
+- [ ] 实现一个路由 Agent（参考 Chapter 2）
+- [ ] 搭建多智能体协作系统（参考 Chapter 7）
+- [ ] 添加安全护栏（参考 Chapter 18）
+
+### 长期提升（持续）
+- [ ] 阅读完整 PDF 文档
+- [ ] 构建个人 Agent 系统（组合多种模式）
+- [ ] 关注 MCP/A2A 生态发展
+
+---
+
+## 常见误区与最佳实践
+
+| 误区 | 正确做法 |
+|------|----------|
+| ❌ 一个 Agent 做所有事情 | ✅ 按职责拆分多个专业 Agent |
+| ❌ 忽略错误处理 | ✅ 实现异常处理和 Fallback 机制 |
+| ❌ 无限制调用 LLM | ✅ 设置反思循环的最大迭代次数 |
+| ❌ 输出直接使用 | ✅ 通过 Pydantic 验证输出结构 |
+| ❌ 硬编码路由规则 | ✅ 使用 LLM 进行语义路由 |
+| ❌ 记忆无限增长 | ✅ 实现记忆摘要和淘汰策略 |
+
+---
+
+## 个人思考
+
+这个项目最大的价值在于：
+1. **系统化**：将分散的 Agent 技术整理成完整的设计模式体系
+2. **实战性**：每个模式都有完整的代码实现，可直接运行学习
+3. **前瞻性**：涵盖了 MCP、A2A 等最新的标准化协议
+4. **可组合性**：模式之间可以自由组合，构建复杂系统
+
+未来 Agent 开发的趋势：
+- 标准化协议（MCP/A2A）将成为主流
+- 多智能体协作将是复杂任务的标准解决方案
+- 安全和可观测性将成为生产部署的必备要素
+
+---
+
+## 延伸阅读
+
+- [LangChain 官方文档](https://python.langchain.com/) - 链式调用和 Agent 构建
+- [CrewAI 文档](https://docs.crewai.com/) - 多智能体框架
+- [Google ADK](https://google.github.io/adk-docs/) - Google 的 Agent 开发套件
+- [MCP 规范](https://modelcontextprotocol.io/) - Anthropic 的工具协议标准
+- [Building Effective Agents (Anthropic)](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic 官方 Agent 构建指南
