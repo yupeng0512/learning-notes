@@ -1,12 +1,12 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-06
+> 最后更新：2026-01-07
 
 ## 快速统计
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 16 |
+| AI 工具与效率 | 17 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 1 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 2 |
 | 社会学 | 1 |
 
-**总计：29 篇笔记**
+**总计：30 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-07 | Agentic Design Patterns - 智能体设计模式完整指南 | AI 工具与效率 | [查看](./ai-tools/2026-01-07-agentic-design-patterns-guide.md) |
 | 2026-01-06 | Google A2UI - Agent 生成 UI 协议 | AI/ML 技术 | [查看](./ai-ml/2026-01-06-google-a2ui-deep-dive.md) |
 | 2026-01-06 | AntV Infographic - 声明式信息图引擎 | AI/ML 技术 | [查看](./ai-ml/2026-01-06-antv-infographic-deep-dive.md) |
 | 2026-01-06 | oh-my-opencode - 多模型 Agent 配置 | AI 工具与效率 | [查看](./ai-tools/2026-01-06-oh-my-opencode-multi-model-agent.md) |
@@ -36,7 +37,6 @@
 | 2026-01-05 | MCP Server/Client 概念详解 | AI 工具与效率 | [查看](./ai-tools/2026-01-05-mcp-server-client-concepts.md) |
 | 2026-01-05 | MCP 架构概述 | AI 工具与效率 | [查看](./ai-tools/2026-01-05-mcp-architecture.md) |
 | 2026-01-05 | AI 浏览器自动化演进 | AI 工具与效率 | [查看](./ai-tools/2026-01-05-ai-browser-automation-evolution.md) |
-| 2026-01-05 | fzf 命令行模糊搜索 | 命令行工具 | [查看](./tools/2025-01-05-fzf-command-line-fuzzy-finder.md) |
 
 ---
 
@@ -44,6 +44,7 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-07] [Agentic Design Patterns - 智能体设计模式完整指南](./ai-tools/2026-01-07-agentic-design-patterns-guide.md)
 - [2026-01-06] [oh-my-opencode - 多模型 Agent 配置](./ai-tools/2026-01-06-oh-my-opencode-multi-model-agent.md)
 - [2026-01-05] [Vibe Kanban - AI Agent 管理系统](./ai-tools/2026-01-05-vibe-kanban-ai-agent-manager.md)
 - [2026-01-05] [MCP Server/Client 概念详解](./ai-tools/2026-01-05-mcp-server-client-concepts.md)
