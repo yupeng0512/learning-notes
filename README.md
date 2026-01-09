@@ -8,13 +8,13 @@
 |------|----------|
 | AI 工具与效率 | 21 |
 | AI/ML 技术 | 5 |
-| AI 研究 | 1 |
+| AI 研究 | 2 |
 | 编程技术 | 3 |
 | 开发工具 | 1 |
 | 命令行工具 | 2 |
 | 社会学 | 1 |
 
-**总计：34 篇笔记**
+**总计：35 篇笔记**
 
 ---
 
@@ -33,6 +33,7 @@
 | 2026-01-06 | RAG 检索增强生成技术 | AI/ML 技术 | [查看](./ai-ml/2026-01-06-rag-retrieval-augmented-generation.md) |
 | 2026-01-06 | Simon Willison 2025 LLM 年度总结 | AI/ML 技术 | [查看](./ai-ml/2026-01-06-simon-willison-2025-year-in-llms.md) |
 | 2026-01-06 | METR AI 能力研究 | AI/ML 技术 | [查看](./ai-ml/2026-01-06-metr-ai-capability-research.md) |
+| 2026-01-06 | Google Cloud 2026 Agent 趋势报告精读 | AI 研究 | [查看](./ai-research/2026-01-06-google-cloud-agent-trends-2026.md) |
 | 2026-01-06 | DLCM 动态大概念模型 | AI 研究 | [查看](./ai-research/2026-01-06-dlcm-dynamic-large-concept-models.md) |
 | 2026-01-06 | Remotion - React 视频框架 | 开发工具 | [查看](./dev-tools/2026-01-06-remotion-react-video-framework.md) |
 | 2026-01-06 | 飞书 Lark MCP 集成 | 命令行工具 | [查看](./tools/2026-01-06-feishu-lark-mcp-integration.md) |
@@ -81,6 +82,7 @@
 
 ### 🔬 AI 研究 (`ai-research/`)
 
+- [2026-01-06] [Google Cloud 2026 Agent 趋势报告精读](./ai-research/2026-01-06-google-cloud-agent-trends-2026.md)
 - [2026-01-06] [DLCM 动态大概念模型](./ai-research/2026-01-06-dlcm-dynamic-large-concept-models.md)
 
 ### 💻 编程技术 (`programming/`)
