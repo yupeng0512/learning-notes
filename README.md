@@ -6,7 +6,7 @@
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 22 |
+| AI 工具与效率 | 23 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 2 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 2 |
 | 社会学 | 1 |
 
-**总计：36 篇笔记**
+**总计：37 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-09 | NVIDIA Nemotron Speech ASR - 实时流式语音识别模型 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-nvidia-nemotron-speech-asr.md) |
 | 2026-01-09 | Browser Use - 开源 AI 浏览器自动化框架 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-browser-use-ai-browser-automation.md) |
 | 2026-01-09 | DeepTutor - AI 个人学习助手 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-deeptutor-ai-learning-assistant.md) |
 | 2026-01-09 | MiroThinker v1.5 - 开源搜索 Agent 介绍 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-mirothinker-search-agent.md) |
@@ -50,6 +51,7 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-09] [NVIDIA Nemotron Speech ASR - 实时流式语音识别模型](./ai-tools/2026-01-09-nvidia-nemotron-speech-asr.md)
 - [2026-01-09] [Browser Use - 开源 AI 浏览器自动化框架](./ai-tools/2026-01-09-browser-use-ai-browser-automation.md)
 - [2026-01-09] [DeepTutor - AI 个人学习助手](./ai-tools/2026-01-09-deeptutor-ai-learning-assistant.md)
 - [2026-01-09] [MiroThinker v1.5 - 开源搜索 Agent 介绍](./ai-tools/2026-01-09-mirothinker-search-agent.md)
