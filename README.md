@@ -6,7 +6,7 @@
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 21 |
+| AI 工具与效率 | 22 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 2 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 2 |
 | 社会学 | 1 |
 
-**总计：35 篇笔记**
+**总计：36 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-09 | Browser Use - 开源 AI 浏览器自动化框架 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-browser-use-ai-browser-automation.md) |
 | 2026-01-09 | DeepTutor - AI 个人学习助手 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-deeptutor-ai-learning-assistant.md) |
 | 2026-01-09 | MiroThinker v1.5 - 开源搜索 Agent 介绍 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-mirothinker-search-agent.md) |
 | 2026-01-09 | Agent Skills for Context Engineering 项目介绍 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-agent-skills-context-engineering.md) |
@@ -49,6 +50,7 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-09] [Browser Use - 开源 AI 浏览器自动化框架](./ai-tools/2026-01-09-browser-use-ai-browser-automation.md)
 - [2026-01-09] [DeepTutor - AI 个人学习助手](./ai-tools/2026-01-09-deeptutor-ai-learning-assistant.md)
 - [2026-01-09] [MiroThinker v1.5 - 开源搜索 Agent 介绍](./ai-tools/2026-01-09-mirothinker-search-agent.md)
 - [2026-01-09] [Agent Skills for Context Engineering 项目介绍](./ai-tools/2026-01-09-agent-skills-context-engineering.md)
