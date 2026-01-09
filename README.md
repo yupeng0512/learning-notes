@@ -1,12 +1,12 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-07
+> 最后更新：2026-01-09
 
 ## 快速统计
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 18 |
+| AI 工具与效率 | 19 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 1 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 2 |
 | 社会学 | 1 |
 
-**总计：31 篇笔记**
+**总计：32 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-09 | Agent Skills for Context Engineering 项目介绍 | AI 工具与效率 | [查看](./ai-tools/2026-01-09-agent-skills-context-engineering.md) |
 | 2026-01-07 | 八千字长文复盘「中国故事」诞生过程 | AI 工具与效率 | [查看](./ai-tools/2026-01-07-antigravity-app-development-case-study.md) |
 | 2026-01-07 | Agentic Design Patterns - 智能体设计模式完整指南 | AI 工具与效率 | [查看](./ai-tools/2026-01-07-agentic-design-patterns-guide.md) |
 | 2026-01-06 | Google A2UI - Agent 生成 UI 协议 | AI/ML 技术 | [查看](./ai-ml/2026-01-06-google-a2ui-deep-dive.md) |
@@ -45,6 +46,7 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-09] [Agent Skills for Context Engineering 项目介绍](./ai-tools/2026-01-09-agent-skills-context-engineering.md)
 - [2026-01-07] [八千字长文复盘「中国故事」诞生过程](./ai-tools/2026-01-07-antigravity-app-development-case-study.md)
 - [2026-01-07] [Agentic Design Patterns - 智能体设计模式完整指南](./ai-tools/2026-01-07-agentic-design-patterns-guide.md)
 - [2026-01-06] [oh-my-opencode - 多模型 Agent 配置](./ai-tools/2026-01-06-oh-my-opencode-multi-model-agent.md)
