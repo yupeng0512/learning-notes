@@ -425,7 +425,8 @@ O(N²) ──→ O(N)，100 万 Context 快 6-10 倍
 - [智谱 GLM 开源系列](https://github.com/THUDM)
 - [Kimi K2](https://kimi.moonshot.cn)
 - [阿里千问 Qwen](https://github.com/QwenLM)
-- [Superpowers - Claude Code 工作流](./2026-01-16-superpowers-claude-code-skills.md)
+- [清华大学基础模型北京市重点实验室](https://ml.cs.tsinghua.edu.cn/)
+- [DeepSeek](https://www.deepseek.com/)
 
 ---
 
