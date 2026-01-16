@@ -6,7 +6,7 @@
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 37 |
+| AI 工具与效率 | 38 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 4 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 3 |
 | 社会学 | 1 |
 
-**总计：54 篇笔记**
+**总计：55 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-16 | NovaSR - 52KB 极致轻量音频超分辨率模型 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-novasr-audio-super-resolution.md) |
 | 2026-01-16 | Cursor 多 Agent 并发编码协调经验 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-cursor-multi-agent-coordination.md) |
 | 2026-01-16 | NotebookLM-Py 自动化工具精读 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-notebooklm-py-automation.md) |
 | 2026-01-16 | AgentCPM-Explore 4B 端侧智能体 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-agentcpm-explore-4b-agent.md) |
@@ -63,6 +64,7 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-16] [NovaSR - 52KB 极致轻量音频超分辨率模型](./ai-tools/2026-01-16-novasr-audio-super-resolution.md)
 - [2026-01-16] [Cursor 多 Agent 并发编码协调经验](./ai-tools/2026-01-16-cursor-multi-agent-coordination.md)
 - [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/2026-01-16-notebooklm-py-automation.md)
 - [2026-01-16] [AgentCPM-Explore 4B 端侧智能体](./ai-tools/2026-01-16-agentcpm-explore-4b-agent.md)
