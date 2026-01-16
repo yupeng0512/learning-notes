@@ -6,7 +6,7 @@
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 33 |
+| AI 工具与效率 | 37 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 3 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 3 |
 | 社会学 | 1 |
 
-**总计：49 篇笔记**
+**总计：53 篇笔记**
 
 ---
 
@@ -22,14 +22,14 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-16 | Cursor 多 Agent 并发编码协调经验 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-cursor-multi-agent-coordination.md) |
+| 2026-01-16 | NotebookLM-Py 自动化工具精读 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-notebooklm-py-automation.md) |
+| 2026-01-16 | AgentCPM-Explore 4B 端侧智能体 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-agentcpm-explore-4b-agent.md) |
 | 2026-01-16 | AGI-Next 前沿峰会 - 清华聚首中国 AI 基模四杰 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-agi-next-summit-tsinghua.md) |
 | 2026-01-16 | Superpowers - Claude Code 工程化工作流技能集 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-superpowers-claude-code-skills.md) |
 | 2026-01-16 | UI-TARS Desktop - 字节开源 AI 操作电脑 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-ui-tars-desktop.md) |
 | 2026-01-16 | Chrome DevTools MCP - AI 控制 Chrome 调试神器 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-chrome-devtools-mcp.md) |
 | 2026-01-16 | Memos - 注重隐私的轻量级笔记工具 | 命令行工具 | [查看](./tools/2026-01-16-memos-lightweight-notes.md) |
-| 2026-01-16 | Ralph - Claude Code 自动化循环工具 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-ralph-claude-code-automation.md) |
-| 2026-01-16 | OpenCode - 终端图形界面的 AI 编程 Agent | AI 工具与效率 | [查看](./ai-tools/2026-01-16-opencode-terminal-ai-agent.md) |
-| 2026-01-16 | Claude Code code-simplifier 插件精读 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-claude-code-simplifier.md) |
 | 2026-01-14 | AI 智能体评估实战指南 | AI 工具与效率 | [查看](./ai-tools/2026-01-14-ai-agent-eval-guide.md) |
 | 2026-01-14 | 2025年AI技术回顾：暴力美学时代的终结 | AI 研究 | [查看](./ai-research/2026-01-14-2025-ai-tech-review.md) |
 | 2026-01-11 | RSS.app vs RSS.com - 两个 RSS 项目对比精读 | AI 工具与效率 | [查看](./ai-tools/2026-01-11-rss-app-vs-rss-com.md) |
@@ -63,6 +63,9 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-16] [Cursor 多 Agent 并发编码协调经验](./ai-tools/2026-01-16-cursor-multi-agent-coordination.md)
+- [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/2026-01-16-notebooklm-py-automation.md)
+- [2026-01-16] [AgentCPM-Explore 4B 端侧智能体](./ai-tools/2026-01-16-agentcpm-explore-4b-agent.md)
 - [2026-01-16] [AGI-Next 前沿峰会 - 清华聚首中国 AI 基模四杰](./ai-tools/2026-01-16-agi-next-summit-tsinghua.md)
 - [2026-01-16] [Superpowers - Claude Code 工程化工作流技能集](./ai-tools/2026-01-16-superpowers-claude-code-skills.md)
 - [2026-01-16] [UI-TARS Desktop - 字节开源 AI 操作电脑](./ai-tools/2026-01-16-ui-tars-desktop.md)
