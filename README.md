@@ -11,10 +11,10 @@
 | AI 研究 | 3 |
 | 编程技术 | 3 |
 | 开发工具 | 1 |
-| 命令行工具 | 2 |
+| 命令行工具 | 3 |
 | 社会学 | 1 |
 
-**总计：44 篇笔记**
+**总计：45 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-16 | Memos - 注重隐私的轻量级笔记工具 | 命令行工具 | [查看](./tools/2026-01-16-memos-lightweight-notes.md) |
 | 2026-01-16 | Ralph - Claude Code 自动化循环工具 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-ralph-claude-code-automation.md) |
 | 2026-01-16 | OpenCode - 终端图形界面的 AI 编程 Agent | AI 工具与效率 | [查看](./ai-tools/2026-01-16-opencode-terminal-ai-agent.md) |
 | 2026-01-16 | Claude Code code-simplifier 插件精读 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-claude-code-simplifier.md) |
@@ -115,6 +116,7 @@
 
 ### ⌨️ 命令行工具 (`tools/`)
 
+- [2026-01-16] [Memos - 注重隐私的轻量级笔记工具](./tools/2026-01-16-memos-lightweight-notes.md)
 - [2026-01-06] [飞书 Lark MCP 集成](./tools/2026-01-06-feishu-lark-mcp-integration.md)
 - [2025-01-05] [fzf 命令行模糊搜索](./tools/2025-01-05-fzf-command-line-fuzzy-finder.md)
 
