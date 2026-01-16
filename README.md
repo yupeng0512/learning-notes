@@ -6,10 +6,10 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **39** |
+| 🤖 AI 工具与效率 | | **40** |
 | | └─ AI IDE | 9 |
 | | └─ MCP 工具 | 4 |
-| | └─ Agent & Skill | 8 |
+| | └─ Agent & Skill | 9 |
 | | └─ AI 模型应用 | 4 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 7 |
@@ -22,7 +22,7 @@
 | ⌨️ 命令行工具 | | 3 |
 | 📖 社会学 | | 1 |
 
-**总计：56 篇笔记**
+**总计：57 篇笔记**
 
 ---
 
@@ -30,6 +30,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-16 | Claude Scientific Skills - 科研类 AI 提示词工程标杆 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-16-claude-scientific-skills.md) |
 | 2026-01-16 | 文章同步助手 Wechatsync - 多平台内容分发 + MCP | MCP 工具 | [查看](./ai-tools/mcp/2026-01-16-wechatsync-article-sync-assistant.md) |
 | 2026-01-16 | NovaSR - 52KB 极致轻量音频超分辨率模型 | AI 模型应用 | [查看](./ai-tools/ai-model/2026-01-16-novasr-audio-super-resolution.md) |
 | 2026-01-16 | Cursor 多 Agent 并发编码协调经验 | AI IDE | [查看](./ai-tools/ai-ide/2026-01-16-cursor-multi-agent-coordination.md) |
@@ -71,6 +72,7 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/`)
 > Agent 设计模式、Skill 系统、Agent 管理
 
+- [2026-01-16] [Claude Scientific Skills - 科研类 AI 提示词工程标杆](./ai-tools/agent-skill/2026-01-16-claude-scientific-skills.md)
 - [2026-01-14] [AI 智能体评估实战指南](./ai-tools/agent-skill/2026-01-14-ai-agent-eval-guide.md)
 - [2026-01-09] [Agent Skills for Context Engineering 项目介绍](./ai-tools/agent-skill/2026-01-09-agent-skills-context-engineering.md)
 - [2026-01-07] [Agentic Design Patterns - 智能体设计模式完整指南](./ai-tools/agent-skill/2026-01-07-agentic-design-patterns-guide.md)
