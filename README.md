@@ -6,7 +6,7 @@
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 32 |
+| AI 工具与效率 | 33 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 3 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 3 |
 | 社会学 | 1 |
 
-**总计：48 篇笔记**
+**总计：49 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-16 | AGI-Next 前沿峰会 - 清华聚首中国 AI 基模四杰 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-agi-next-summit-tsinghua.md) |
 | 2026-01-16 | Superpowers - Claude Code 工程化工作流技能集 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-superpowers-claude-code-skills.md) |
 | 2026-01-16 | UI-TARS Desktop - 字节开源 AI 操作电脑 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-ui-tars-desktop.md) |
 | 2026-01-16 | Chrome DevTools MCP - AI 控制 Chrome 调试神器 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-chrome-devtools-mcp.md) |
@@ -62,6 +63,7 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-16] [AGI-Next 前沿峰会 - 清华聚首中国 AI 基模四杰](./ai-tools/2026-01-16-agi-next-summit-tsinghua.md)
 - [2026-01-16] [Superpowers - Claude Code 工程化工作流技能集](./ai-tools/2026-01-16-superpowers-claude-code-skills.md)
 - [2026-01-16] [UI-TARS Desktop - 字节开源 AI 操作电脑](./ai-tools/2026-01-16-ui-tars-desktop.md)
 - [2026-01-16] [Chrome DevTools MCP - AI 控制 Chrome 调试神器](./ai-tools/2026-01-16-chrome-devtools-mcp.md)
