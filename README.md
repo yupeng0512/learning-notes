@@ -6,7 +6,7 @@
 
 | 分类 | 笔记数量 |
 |------|----------|
-| AI 工具与效率 | 28 |
+| AI 工具与效率 | 29 |
 | AI/ML 技术 | 5 |
 | AI 研究 | 3 |
 | 编程技术 | 3 |
@@ -14,7 +14,7 @@
 | 命令行工具 | 2 |
 | 社会学 | 1 |
 
-**总计：43 篇笔记**
+**总计：44 篇笔记**
 
 ---
 
@@ -22,6 +22,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-16 | Ralph - Claude Code 自动化循环工具 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-ralph-claude-code-automation.md) |
 | 2026-01-16 | OpenCode - 终端图形界面的 AI 编程 Agent | AI 工具与效率 | [查看](./ai-tools/2026-01-16-opencode-terminal-ai-agent.md) |
 | 2026-01-16 | Claude Code code-simplifier 插件精读 | AI 工具与效率 | [查看](./ai-tools/2026-01-16-claude-code-simplifier.md) |
 | 2026-01-14 | AI 智能体评估实战指南 | AI 工具与效率 | [查看](./ai-tools/2026-01-14-ai-agent-eval-guide.md) |
@@ -57,6 +58,7 @@
 
 ### 🤖 AI 工具与效率 (`ai-tools/`)
 
+- [2026-01-16] [Ralph - Claude Code 自动化循环工具](./ai-tools/2026-01-16-ralph-claude-code-automation.md)
 - [2026-01-16] [OpenCode - 终端图形界面的 AI 编程 Agent](./ai-tools/2026-01-16-opencode-terminal-ai-agent.md)
 - [2026-01-16] [Claude Code code-simplifier 插件精读](./ai-tools/2026-01-16-claude-code-simplifier.md)
 - [2026-01-14] [AI 智能体评估实战指南](./ai-tools/2026-01-14-ai-agent-eval-guide.md)
