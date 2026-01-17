@@ -1,3 +1,11 @@
+---
+title: "Memos - 注重隐私的轻量级笔记工具"
+date: 2026-01-16
+category: "tools"
+tags: ["笔记工具", "自托管", "开源", "Docker", "隐私"]
+source: "GitHub 热门项目介绍"
+---
+
 # Memos - 注重隐私的轻量级笔记工具
 
 > 精读日期：2026-01-16
