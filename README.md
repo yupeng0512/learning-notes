@@ -6,10 +6,10 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **49** |
+| 🤖 AI 工具与效率 | | **50** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
-| | └─ Agent & Skill | 15 |
+| | └─ Agent & Skill | 16 |
 | | └─ AI 模型应用 | 4 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 9 |
@@ -23,7 +23,7 @@
 | ⌨️ 命令行工具 | | 3 |
 | 📖 社会学 | | 1 |
 
-**总计：67 篇笔记**
+**总计：68 篇笔记**
 
 ---
 
@@ -31,8 +31,9 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
-| 2026-01-17 | Quarkdown - Markdown 增强排版神器 | 效率工具 | [查看](./ai-tools/ai-productivity/2026-01-17-quarkdown-markdown-typesetting.md) |
-| 2026-01-17 | Voquill - AI 语音转文字工作区 | 效率工具 | [查看](./ai-tools/ai-productivity/2026-01-17-voquill-voice-to-text.md) |
+| 2026-01-17 | Open Responses API - 下一代 LLM API 调用规范 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-open-responses-api.md) |
+| 2026-01-17 | Quarkdown - Markdown 增强排版神器 | 效率工具 | [查看](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md) |
+| 2026-01-17 | Voquill - AI 语音转文字工作区 | 效率工具 | [查看](./ai-tools/productivity/2026-01-17-voquill-voice-to-text.md) |
 | 2026-01-17 | Claude Agent SDK 构建 AI Agent 完整指南 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-claude-agent-sdk-guide.md) |
 | 2026-01-17 | Memvid - AI Agent 单文件记忆层 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-memvid-ai-memory.md) |
 | 2026-01-17 | Web-Check 一站式 OSINT 网站分析工具 | OSINT 工具 | [查看](./ai-tools/osint-tools/2026-01-17-web-check-analysis.md) |
@@ -84,6 +85,7 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/`)
 > Agent 设计模式、Skill 系统、Agent 管理
 
+- [2026-01-17] [Open Responses API - 下一代 LLM API 调用规范](./ai-tools/agent-architecture/2026-01-17-open-responses-api.md)
 - [2026-01-17] [Claude Agent SDK 构建 AI Agent 完整指南](./ai-tools/agent-architecture/2026-01-17-claude-agent-sdk-guide.md)
 - [2026-01-17] [Memvid - AI Agent 单文件记忆层](./ai-tools/agent-architecture/2026-01-17-memvid-ai-memory.md)
 - [2026-01-17] [Claude-Mem 持久化记忆系统](./ai-tools/agent-architecture/2026-01-17-claude-mem-analysis.md)
@@ -117,8 +119,8 @@
 #### ⚡ 效率工具 (`ai-tools/productivity/`)
 > 笔记、内容分发、演示文稿、搜索等
 
-- [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/ai-productivity/2026-01-17-quarkdown-markdown-typesetting.md)
-- [2026-01-17] [Voquill - AI 语音转文字工作区](./ai-tools/ai-productivity/2026-01-17-voquill-voice-to-text.md)
+- [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md)
+- [2026-01-17] [Voquill - AI 语音转文字工作区](./ai-tools/productivity/2026-01-17-voquill-voice-to-text.md)
 - [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/productivity/2026-01-16-notebooklm-py-automation.md)
 - [2026-01-11] [RSS.app vs RSS.com - 两个 RSS 项目对比精读](./ai-tools/productivity/2026-01-11-rss-app-vs-rss-com.md)
 - [2026-01-09] [OpenBB - 开源金融数据平台](./ai-tools/productivity/2026-01-09-openbb-open-finance-platform.md)
