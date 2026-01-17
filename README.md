@@ -1,15 +1,15 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-16
+> 最后更新：2026-01-17
 
 ## 快速统计
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **41** |
+| 🤖 AI 工具与效率 | | **42** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
-| | └─ Agent & Skill | 9 |
+| | └─ Agent & Skill | 11 |
 | | └─ AI 模型应用 | 4 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 7 |
@@ -22,7 +22,7 @@
 | ⌨️ 命令行工具 | | 3 |
 | 📖 社会学 | | 1 |
 
-**总计：59 篇笔记**
+**总计：60 篇笔记**
 
 ---
 
@@ -30,6 +30,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-17 | Quest 自进化自主编程 Agent | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-quest-self-evolving-agent.md) |
 | 2026-01-16 | Vibe Kanban - AI 编程代理编排平台实操指南 | AI IDE | [查看](./ai-tools/ai-ide/2026-01-16-vibe-kanban-multi-agent-orchestration.md) |
 | 2026-01-16 | 微信公众号文章导出器 - 批量下载神器 | 命令行工具 | [查看](./tools/2026-01-16-wechat-article-exporter.md) |
 | 2026-01-16 | Claude Scientific Skills - 科研类 AI 提示词工程标杆 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-16-claude-scientific-skills.md) |
@@ -75,6 +76,7 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/`)
 > Agent 设计模式、Skill 系统、Agent 管理
 
+- [2026-01-17] [Quest 自进化自主编程 Agent](./ai-tools/agent-architecture/2026-01-17-quest-self-evolving-agent.md)
 - [2026-01-16] [Claude Scientific Skills - 科研类 AI 提示词工程标杆](./ai-tools/agent-skill/2026-01-16-claude-scientific-skills.md)
 - [2026-01-14] [AI 智能体评估实战指南](./ai-tools/agent-skill/2026-01-14-ai-agent-eval-guide.md)
 - [2026-01-09] [Agent Skills for Context Engineering 项目介绍](./ai-tools/agent-skill/2026-01-09-agent-skills-context-engineering.md)
