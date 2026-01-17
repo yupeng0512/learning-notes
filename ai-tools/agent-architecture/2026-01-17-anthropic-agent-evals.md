@@ -1,12 +1,29 @@
+---
+title: "Anthropic 揭秘 AI Agents 评估"
+date: 2026-01-17
+category: ai-tools/agent-architecture
+tags: [agent, evaluation, benchmark, anthropic, best-practice]
+source: https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents
+---
+
 # Anthropic 揭秘 AI Agents 评估 - 官方最佳实践指南
 
 > **原文**：[Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents)
 > **作者**：Anthropic 工程团队
 > **精读日期**：2026-01-17
 
-## 📖 一句话总结
+## 📖 快速概览
 
-评估不是事后检验，而是 AI Agent 开发的「方向盘」——没有评估就是蒙眼开车，有了评估才能快速迭代、安全升级。
+| 项目 | 内容 |
+|------|------|
+| **标题** | Demystifying Evals for AI Agents |
+| **作者** | Anthropic 工程团队 |
+| **类型** | 技术博客（官方最佳实践） |
+| **核心主题** | AI Agent 评估方法论与工程实践 |
+| **目标读者** | AI Agent 开发者、ML 工程师、产品经理 |
+| **阅读价值** | ⭐⭐⭐⭐⭐ 官方一手经验，系统全面，可直接落地 |
+
+> 💡 **一句话总结**：评估不是事后检验，而是 AI Agent 开发的「方向盘」——没有评估就是蒙眼开车，有了评估才能快速迭代、安全升级。
 
 ---
 
