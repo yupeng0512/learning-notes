@@ -6,10 +6,10 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **45** |
+| 🤖 AI 工具与效率 | | **46** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
-| | └─ Agent & Skill | 13 |
+| | └─ Agent & Skill | 14 |
 | | └─ AI 模型应用 | 4 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 7 |
@@ -23,7 +23,7 @@
 | ⌨️ 命令行工具 | | 3 |
 | 📖 社会学 | | 1 |
 
-**总计：63 篇笔记**
+**总计：64 篇笔记**
 
 ---
 
@@ -31,6 +31,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-17 | Memvid - AI Agent 单文件记忆层 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-memvid-ai-memory.md) |
 | 2026-01-17 | Web-Check 一站式 OSINT 网站分析工具 | OSINT 工具 | [查看](./ai-tools/osint-tools/2026-01-17-web-check-analysis.md) |
 | 2026-01-17 | Claude-Mem 持久化记忆系统 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-claude-mem-analysis.md) |
 | 2026-01-17 | Anthropic 揭秘 AI Agents 评估 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-anthropic-agent-evals.md) |
@@ -80,6 +81,7 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/`)
 > Agent 设计模式、Skill 系统、Agent 管理
 
+- [2026-01-17] [Memvid - AI Agent 单文件记忆层](./ai-tools/agent-architecture/2026-01-17-memvid-ai-memory.md)
 - [2026-01-17] [Claude-Mem 持久化记忆系统](./ai-tools/agent-architecture/2026-01-17-claude-mem-analysis.md)
 - [2026-01-17] [Anthropic 揭秘 AI Agents 评估](./ai-tools/agent-architecture/2026-01-17-anthropic-agent-evals.md)
 - [2026-01-17] [Quest 自进化自主编程 Agent](./ai-tools/agent-architecture/2026-01-17-quest-self-evolving-agent.md)
