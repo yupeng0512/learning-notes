@@ -6,13 +6,13 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **48** |
+| 🤖 AI 工具与效率 | | **49** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
 | | └─ Agent & Skill | 15 |
 | | └─ AI 模型应用 | 4 |
 | | └─ 浏览器自动化 | 3 |
-| | └─ 效率工具 | 8 |
+| | └─ 效率工具 | 9 |
 | | └─ 开发案例 | 3 |
 | | └─ 行业洞察 | 1 |
 | | └─ OSINT 工具 | 1 |
@@ -23,7 +23,7 @@
 | ⌨️ 命令行工具 | | 3 |
 | 📖 社会学 | | 1 |
 
-**总计：66 篇笔记**
+**总计：67 篇笔记**
 
 ---
 
@@ -31,6 +31,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-17 | Quarkdown - Markdown 增强排版神器 | 效率工具 | [查看](./ai-tools/ai-productivity/2026-01-17-quarkdown-markdown-typesetting.md) |
 | 2026-01-17 | Voquill - AI 语音转文字工作区 | 效率工具 | [查看](./ai-tools/ai-productivity/2026-01-17-voquill-voice-to-text.md) |
 | 2026-01-17 | Claude Agent SDK 构建 AI Agent 完整指南 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-claude-agent-sdk-guide.md) |
 | 2026-01-17 | Memvid - AI Agent 单文件记忆层 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-memvid-ai-memory.md) |
@@ -116,6 +117,7 @@
 #### ⚡ 效率工具 (`ai-tools/productivity/`)
 > 笔记、内容分发、演示文稿、搜索等
 
+- [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/ai-productivity/2026-01-17-quarkdown-markdown-typesetting.md)
 - [2026-01-17] [Voquill - AI 语音转文字工作区](./ai-tools/ai-productivity/2026-01-17-voquill-voice-to-text.md)
 - [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/productivity/2026-01-16-notebooklm-py-automation.md)
 - [2026-01-11] [RSS.app vs RSS.com - 两个 RSS 项目对比精读](./ai-tools/productivity/2026-01-11-rss-app-vs-rss-com.md)
