@@ -1,16 +1,17 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-17
+> 最后更新：2026-01-19
 
 ## 快速统计
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **51** |
+| 🤖 AI 工具与效率 | | **52** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
 | | └─ Agent & Skill | 17 |
 | | └─ AI 模型应用 | 4 |
+| | └─ AI 视频生成 | 1 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 9 |
 | | └─ 开发案例 | 3 |
@@ -23,7 +24,7 @@
 | ⌨️ 命令行工具 | | 3 |
 | 📖 社会学 | | 1 |
 
-**总计：69 篇笔记**
+**总计：70 篇笔记**
 
 ---
 
@@ -31,6 +32,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-19 | PixVerse R1：全球首个通用实时世界模型 | AI 视频生成 | [查看](./ai-tools/ai-video/2026-01-19-pixverse-r1-realtime-world-model.md) |
 | 2026-01-19 | OctoCodingBench - Coding Agent 过程合规评测新标准 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-19-octocodingbench-process-evaluation.md) |
 | 2026-01-17 | Open Responses API - 下一代 LLM API 调用规范 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-17-open-responses-api.md) |
 | 2026-01-17 | Quarkdown - Markdown 增强排版神器 | 效率工具 | [查看](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md) |
@@ -110,6 +112,11 @@
 - [2026-01-16] [AgentCPM-Explore 4B 端侧智能体](./ai-tools/ai-model/2026-01-16-agentcpm-explore-4b-agent.md)
 - [2026-01-09] [NVIDIA Nemotron Speech ASR - 实时流式语音识别模型](./ai-tools/ai-model/2026-01-09-nvidia-nemotron-speech-asr.md)
 - [2026-01-04] [Awesome LLM Apps - LLM 应用案例集合](./ai-tools/ai-model/2026-01-04-awesome-llm-apps.md)
+
+#### 🎬 AI 视频生成 (`ai-tools/ai-video/`)
+> 视频生成模型、世界模型、实时视频技术
+
+- [2026-01-19] [PixVerse R1：全球首个通用实时世界模型](./ai-tools/ai-video/2026-01-19-pixverse-r1-realtime-world-model.md) 🆕
 
 #### 🌐 浏览器自动化 (`ai-tools/browser-automation/`)
 > Browser Use、UI-TARS 等
@@ -205,6 +212,7 @@
 | **MCP 工具** | `ai-tools/mcp/` | MCP 协议架构、MCP 服务器/客户端实现 |
 | **Agent & Skill** | `ai-tools/agent-skill/` | Agent 设计模式、Skill 系统、提示词工程 |
 | **AI 模型应用** | `ai-tools/ai-model/` | 语音识别、音频处理、端侧模型、LLM 应用 |
+| **AI 视频生成** | `ai-tools/ai-video/` | 视频生成模型、世界模型、实时视频技术 |
 | **浏览器自动化** | `ai-tools/browser-automation/` | Browser Use、UI-TARS、自动化测试 |
 | **效率工具** | `ai-tools/productivity/` | 笔记、搜索、内容分发、演示文稿 |
 | **开发案例** | `ai-tools/case-study/` | 实战项目复盘、最佳实践分享 |
