@@ -6,27 +6,29 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **54** |
+| 🤖 AI 工具与效率 | | **56** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
-| | └─ Agent & Skill | 17 |
+| | └─ Agent & Skill | 18 |
 | | └─ AI 模型应用 | 4 |
-| | └─ AI 视频生成 | 1 |
+| | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 9 |
-| | └─ AI 生产力 | 1 |
+| | └─ AI 生产力 | 4 |
 | | └─ 开发案例 | 3 |
 | | └─ 行业洞察 | 1 |
 | | └─ OSINT 工具 | 1 |
 | | └─ 职业发展 | 1 |
-| 🧠 AI/ML 技术 | | 5 |
-| 🔬 AI 研究 | | 4 |
+| 🧠 AI/ML 技术 | | 4 |
+| 🔬 AI 研究 | | **6** |
+| | └─ 深度研究 | 1 |
+| | └─ 翻译模型 | 1 |
 | 💻 编程技术 | | 3 |
 | 🛠️ 开发工具 | | 1 |
-| ⌨️ 命令行工具 | | 3 |
+| ⌨️ 命令行工具 | | 4 |
 | 📖 社会学 | | 1 |
 
-**总计：72 篇笔记**
+**总计：75 篇笔记**
 
 ---
 
@@ -34,6 +36,10 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-19 | TranslateGemma - Google 开源翻译模型里程碑 | 翻译模型 | [查看](./ai-research/translation/2026-01-19-translategemma-google-open-translation.md) |
+| 2026-01-19 | O-Researcher - OPPO 开源深度研究模型 | 深度研究 | [查看](./ai-research/deep-research/2026-01-19-o-researcher-oppo-open-deep-research.md) |
+| 2026-01-19 | AIGC 影视创作工具链与超级个体心法 | AI 视频生成 | [查看](./ai-tools/ai-video/2026-01-19-aigc-video-creation-tools.md) |
+| 2026-01-19 | AI 对话范式转变：从实习生到启发式钥匙 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md) |
 | 2026-01-19 | CC-Switch - AI CLI 统一配置管理工具架构精读 | AI 生产力 | [查看](./ai-tools/ai-productivity/2026-01-19-cc-switch-config-manager.md) |
 | 2026-01-19 | AI 时代软件工程师的未来：五个关键问题 | 职业发展 | [查看](./ai-tools/career-development/2026-01-19-addy-osmani-next-two-years.md) |
 | 2026-01-19 | PixVerse R1：全球首个通用实时世界模型 | AI 视频生成 | [查看](./ai-tools/ai-video/2026-01-19-pixverse-r1-realtime-world-model.md) |
@@ -89,9 +95,10 @@
 - [2026-01-05] [MCP Server/Client 概念详解](./ai-tools/mcp/2026-01-05-mcp-server-client-concepts.md)
 - [2026-01-05] [MCP 架构概述](./ai-tools/mcp/2026-01-05-mcp-architecture.md)
 
-#### 🤖 Agent & Skill (`ai-tools/agent-skill/`)
-> Agent 设计模式、Skill 系统、Agent 管理
+#### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
+> Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
+- [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md) 🆕
 - [2026-01-19] [OctoCodingBench - Coding Agent 过程合规评测新标准](./ai-tools/agent-architecture/2026-01-19-octocodingbench-process-evaluation.md)
 - [2026-01-17] [Open Responses API - 下一代 LLM API 调用规范](./ai-tools/agent-architecture/2026-01-17-open-responses-api.md)
 - [2026-01-17] [Claude Agent SDK 构建 AI Agent 完整指南](./ai-tools/agent-architecture/2026-01-17-claude-agent-sdk-guide.md)
@@ -118,9 +125,10 @@
 - [2026-01-04] [Awesome LLM Apps - LLM 应用案例集合](./ai-tools/ai-model/2026-01-04-awesome-llm-apps.md)
 
 #### 🎬 AI 视频生成 (`ai-tools/ai-video/`)
-> 视频生成模型、世界模型、实时视频技术
+> 视频生成模型、世界模型、实时视频技术、AIGC 创作工具链
 
-- [2026-01-19] [PixVerse R1：全球首个通用实时世界模型](./ai-tools/ai-video/2026-01-19-pixverse-r1-realtime-world-model.md) 🆕
+- [2026-01-19] [AIGC 影视创作工具链与超级个体心法](./ai-tools/ai-video/2026-01-19-aigc-video-creation-tools.md) 🆕
+- [2026-01-19] [PixVerse R1：全球首个通用实时世界模型](./ai-tools/ai-video/2026-01-19-pixverse-r1-realtime-world-model.md)
 
 #### 🌐 浏览器自动化 (`ai-tools/browser-automation/`)
 > Browser Use、UI-TARS 等
@@ -133,15 +141,6 @@
 > 笔记、内容分发、演示文稿、搜索等
 
 - [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md)
-
-#### 🎨 AI 生成 UI (`ai-tools/ai-productivity/`)
-> AI 生成前端界面的工具与协议、AI CLI 配置管理
-
-- [2026-01-19] [CC-Switch - AI CLI 统一配置管理工具架构精读](./ai-tools/ai-productivity/2026-01-19-cc-switch-config-manager.md) 🆕
-- [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/ai-productivity/2026-01-19-ai-dialogue-paradigm-shift.md)
-- [2026-01-19] [AI 生成 UI 方案对比：json-render vs A2UI](./ai-tools/ai-productivity/2026-01-19-ai-ui-generation-comparison.md)
-- [2026-01-19] [json-render - AI 生成 UI 的约束式革命](./ai-tools/ai-productivity/2026-01-19-json-render-ai-ui-generation.md)
-- [2026-01-06] [Google A2UI - Agent 生成 UI 的声明式协议](./ai-tools/ai-productivity/2026-01-06-google-a2ui-agent-ui-protocol.md)
 - [2026-01-17] [Voquill - AI 语音转文字工作区](./ai-tools/productivity/2026-01-17-voquill-voice-to-text.md)
 - [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/productivity/2026-01-16-notebooklm-py-automation.md)
 - [2026-01-11] [RSS.app vs RSS.com - 两个 RSS 项目对比精读](./ai-tools/productivity/2026-01-11-rss-app-vs-rss-com.md)
@@ -150,6 +149,14 @@
 - [2026-01-09] [MiroThinker v1.5 - 开源搜索 Agent 介绍](./ai-tools/productivity/2026-01-09-mirothinker-search-agent.md)
 - [2026-01-04] [Slidev - 开发者演示文稿工具](./ai-tools/productivity/2026-01-04-slidev-guide.md)
 - [2026-01-04] [SuperWhisper - AI 语音转文字工具](./ai-tools/productivity/2026-01-04-superwhisper-voice-to-text.md)
+
+#### 🎨 AI 生产力 (`ai-tools/ai-productivity/`)
+> AI 生成前端界面的工具与协议、AI CLI 配置管理
+
+- [2026-01-19] [CC-Switch - AI CLI 统一配置管理工具架构精读](./ai-tools/ai-productivity/2026-01-19-cc-switch-config-manager.md)
+- [2026-01-19] [AI 生成 UI 方案对比：json-render vs A2UI](./ai-tools/ai-productivity/2026-01-19-ai-ui-generation-comparison.md)
+- [2026-01-19] [json-render - AI 生成 UI 的约束式革命](./ai-tools/ai-productivity/2026-01-19-json-render-ai-ui-generation.md)
+- [2026-01-06] [Google A2UI - Agent 生成 UI 的声明式协议](./ai-tools/ai-productivity/2026-01-06-google-a2ui-agent-ui-protocol.md)
 
 #### 📖 开发案例 (`ai-tools/case-study/`)
 > 实战案例、项目复盘
@@ -171,7 +178,7 @@
 #### 💼 职业发展 (`ai-tools/career-development/`)
 > AI 时代的职业规划、技能发展、行业趋势
 
-- [2026-01-19] [AI 时代软件工程师的未来：五个关键问题](./ai-tools/career-development/2026-01-19-addy-osmani-next-two-years.md) 🆕
+- [2026-01-19] [AI 时代软件工程师的未来：五个关键问题](./ai-tools/career-development/2026-01-19-addy-osmani-next-two-years.md)
 
 ---
 
@@ -183,6 +190,18 @@
 - [2026-01-06] [METR AI 能力研究](./ai-ml/2026-01-06-metr-ai-capability-research.md)
 
 ### 🔬 AI 研究 (`ai-research/`)
+
+#### 📊 深度研究 (`ai-research/deep-research/`)
+> 深度研究模型、多智能体蒸馏、Agentic RL
+
+- [2026-01-19] [O-Researcher - OPPO 开源深度研究模型](./ai-research/deep-research/2026-01-19-o-researcher-oppo-open-deep-research.md) 🆕
+
+#### 🌐 翻译模型 (`ai-research/translation/`)
+> 机器翻译、多语言模型、本地部署翻译
+
+- [2026-01-19] [TranslateGemma - Google 开源翻译模型里程碑](./ai-research/translation/2026-01-19-translategemma-google-open-translation.md) 🆕
+
+#### 📄 其他研究
 
 - [2026-01-16] [AgeMem - 统一长短期记忆管理框架](./ai-research/2026-01-16-agentic-memory-unified-ltm-stm.md)
 - [2026-01-14] [2025年AI技术回顾：暴力美学时代的终结](./ai-research/2026-01-14-2025-ai-tech-review.md)
@@ -220,12 +239,20 @@
 |--------|------|----------|
 | **AI IDE** | `ai-tools/ai-ide/` | Claude Code、Cursor、OpenCode 等 AI 编程工具 |
 | **MCP 工具** | `ai-tools/mcp/` | MCP 协议架构、MCP 服务器/客户端实现 |
-| **Agent & Skill** | `ai-tools/agent-skill/` | Agent 设计模式、Skill 系统、提示词工程 |
+| **Agent & Skill** | `ai-tools/agent-skill/` | Agent 设计模式、Skill 系统、提示词工程、对话方法论 |
 | **AI 模型应用** | `ai-tools/ai-model/` | 语音识别、音频处理、端侧模型、LLM 应用 |
-| **AI 视频生成** | `ai-tools/ai-video/` | 视频生成模型、世界模型、实时视频技术 |
+| **AI 视频生成** | `ai-tools/ai-video/` | 视频生成模型、世界模型、实时视频、AIGC 创作工具链 |
 | **浏览器自动化** | `ai-tools/browser-automation/` | Browser Use、UI-TARS、自动化测试 |
 | **效率工具** | `ai-tools/productivity/` | 笔记、搜索、内容分发、演示文稿 |
+| **AI 生产力** | `ai-tools/ai-productivity/` | AI 生成 UI、CLI 配置管理 |
 | **开发案例** | `ai-tools/case-study/` | 实战项目复盘、最佳实践分享 |
 | **行业洞察** | `ai-tools/industry/` | 峰会总结、年度回顾、趋势分析 |
 | **OSINT 工具** | `ai-tools/osint-tools/` | 网站分析、信息收集、安全侦察 |
 | **职业发展** | `ai-tools/career-development/` | AI 时代职业规划、技能发展、行业趋势 |
+
+### AI 研究子分类
+
+| 子分类 | 目录 | 内容说明 |
+|--------|------|----------|
+| **深度研究** | `ai-research/deep-research/` | 深度研究模型、多智能体蒸馏、Agentic RL |
+| **翻译模型** | `ai-research/translation/` | 机器翻译、多语言模型、本地部署翻译 |
