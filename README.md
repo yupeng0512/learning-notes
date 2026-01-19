@@ -6,7 +6,7 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **53** |
+| 🤖 AI 工具与效率 | | **54** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
 | | └─ Agent & Skill | 17 |
@@ -14,6 +14,7 @@
 | | └─ AI 视频生成 | 1 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 9 |
+| | └─ AI 生产力 | 1 |
 | | └─ 开发案例 | 3 |
 | | └─ 行业洞察 | 1 |
 | | └─ OSINT 工具 | 1 |
@@ -25,7 +26,7 @@
 | ⌨️ 命令行工具 | | 3 |
 | 📖 社会学 | | 1 |
 
-**总计：71 篇笔记**
+**总计：72 篇笔记**
 
 ---
 
@@ -33,6 +34,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-19 | CC-Switch - AI CLI 统一配置管理工具架构精读 | AI 生产力 | [查看](./ai-tools/ai-productivity/2026-01-19-cc-switch-config-manager.md) |
 | 2026-01-19 | AI 时代软件工程师的未来：五个关键问题 | 职业发展 | [查看](./ai-tools/career-development/2026-01-19-addy-osmani-next-two-years.md) |
 | 2026-01-19 | PixVerse R1：全球首个通用实时世界模型 | AI 视频生成 | [查看](./ai-tools/ai-video/2026-01-19-pixverse-r1-realtime-world-model.md) |
 | 2026-01-19 | OctoCodingBench - Coding Agent 过程合规评测新标准 | Agent & Skill | [查看](./ai-tools/agent-architecture/2026-01-19-octocodingbench-process-evaluation.md) |
@@ -133,9 +135,10 @@
 - [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md)
 
 #### 🎨 AI 生成 UI (`ai-tools/ai-productivity/`)
-> AI 生成前端界面的工具与协议
+> AI 生成前端界面的工具与协议、AI CLI 配置管理
 
-- [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/ai-productivity/2026-01-19-ai-dialogue-paradigm-shift.md) 🆕
+- [2026-01-19] [CC-Switch - AI CLI 统一配置管理工具架构精读](./ai-tools/ai-productivity/2026-01-19-cc-switch-config-manager.md) 🆕
+- [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/ai-productivity/2026-01-19-ai-dialogue-paradigm-shift.md)
 - [2026-01-19] [AI 生成 UI 方案对比：json-render vs A2UI](./ai-tools/ai-productivity/2026-01-19-ai-ui-generation-comparison.md)
 - [2026-01-19] [json-render - AI 生成 UI 的约束式革命](./ai-tools/ai-productivity/2026-01-19-json-render-ai-ui-generation.md)
 - [2026-01-06] [Google A2UI - Agent 生成 UI 的声明式协议](./ai-tools/ai-productivity/2026-01-06-google-a2ui-agent-ui-protocol.md)
