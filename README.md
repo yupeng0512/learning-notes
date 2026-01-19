@@ -126,6 +126,7 @@
 #### 🎨 AI 生成 UI (`ai-tools/ai-productivity/`)
 > AI 生成前端界面的工具与协议
 
+- [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/ai-productivity/2026-01-19-ai-dialogue-paradigm-shift.md) 🆕
 - [2026-01-19] [AI 生成 UI 方案对比：json-render vs A2UI](./ai-tools/ai-productivity/2026-01-19-ai-ui-generation-comparison.md)
 - [2026-01-19] [json-render - AI 生成 UI 的约束式革命](./ai-tools/ai-productivity/2026-01-19-json-render-ai-ui-generation.md)
 - [2026-01-06] [Google A2UI - Agent 生成 UI 的声明式协议](./ai-tools/ai-productivity/2026-01-06-google-a2ui-agent-ui-protocol.md)
