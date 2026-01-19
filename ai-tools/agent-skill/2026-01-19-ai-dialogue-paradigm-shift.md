@@ -1,3 +1,10 @@
+---
+title: "AI 对话范式转变：从实习生指令到启发式钥匙"
+date: 2026-01-19
+category: ai-tools/agent-skill
+tags: [AI-dialogue, Socratic-questioning, cognitive-collaboration, prompt-engineering, thinking-partner]
+---
+
 # AI 对话范式转变：从"实习生指令"到"启发式钥匙"
 
 > 精读日期：2026-01-19

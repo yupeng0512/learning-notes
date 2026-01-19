@@ -1,3 +1,11 @@
+---
+title: "AIGC 影视创作工具链与超级个体心法"
+date: 2026-01-19
+category: ai-tools/ai-video
+tags: [AIGC, video-generation, AI-tools, super-individual, creative-workflow]
+source: 技术博客（实践经验分享）
+---
+
 # AIGC 影视创作工具链与超级个体心法
 
 > **学习日期**：2026-01-19  

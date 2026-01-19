@@ -1,3 +1,12 @@
+---
+title: "O-Researcher: OPPO 开源深度研究模型"
+date: 2026-01-19
+category: ai-research/deep-research
+tags: [deep-research, multi-agent, RLAIF, trajectory-distillation, OPPO, open-source]
+source: https://arxiv.org/pdf/2601.03743
+code: https://github.com/OPPO-PersonalAI/O-Researcher
+---
+
 # O-Researcher: OPPO 开源深度研究模型
 
 > 📅 学习日期：2026-01-19
