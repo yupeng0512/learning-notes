@@ -122,6 +122,13 @@
 > 笔记、内容分发、演示文稿、搜索等
 
 - [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md)
+
+#### 🎨 AI 生成 UI (`ai-tools/ai-productivity/`)
+> AI 生成前端界面的工具与协议
+
+- [2026-01-19] [AI 生成 UI 方案对比：json-render vs A2UI](./ai-tools/ai-productivity/2026-01-19-ai-ui-generation-comparison.md)
+- [2026-01-19] [json-render - AI 生成 UI 的约束式革命](./ai-tools/ai-productivity/2026-01-19-json-render-ai-ui-generation.md)
+- [2026-01-06] [Google A2UI - Agent 生成 UI 的声明式协议](./ai-tools/ai-productivity/2026-01-06-google-a2ui-agent-ui-protocol.md)
 - [2026-01-17] [Voquill - AI 语音转文字工作区](./ai-tools/productivity/2026-01-17-voquill-voice-to-text.md)
 - [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/productivity/2026-01-16-notebooklm-py-automation.md)
 - [2026-01-11] [RSS.app vs RSS.com - 两个 RSS 项目对比精读](./ai-tools/productivity/2026-01-11-rss-app-vs-rss-com.md)
@@ -152,7 +159,6 @@
 
 ### 🧠 AI/ML 技术 (`ai-ml/`)
 
-- [2026-01-06] [Google A2UI - Agent 生成 UI 协议](./ai-ml/2026-01-06-google-a2ui-deep-dive.md)
 - [2026-01-06] [AntV Infographic - 声明式信息图引擎](./ai-ml/2026-01-06-antv-infographic-deep-dive.md)
 - [2026-01-06] [RAG 检索增强生成技术](./ai-ml/2026-01-06-rag-retrieval-augmented-generation.md)
 - [2026-01-06] [Simon Willison 2025 LLM 年度总结](./ai-ml/2026-01-06-simon-willison-2025-year-in-llms.md)
