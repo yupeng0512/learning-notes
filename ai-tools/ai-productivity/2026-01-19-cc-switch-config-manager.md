@@ -331,7 +331,151 @@ cleanup_before_exit:
 
 ---
 
+## 快速上手实践
+
+> **实践类项目学习的关键**：先跑起来，再深入原理
+
+### 1. 安装方式
+
+**macOS (推荐 Homebrew)**：
+```bash
+brew tap farion1231/ccswitch
+brew install --cask cc-switch
+
+# 更新
+brew upgrade --cask cc-switch
+```
+
+**Arch Linux (AUR)**：
+```bash
+paru -S cc-switch-bin
+```
+
+**其他平台**：从 [GitHub Releases](https://github.com/farion1231/cc-switch/releases) 下载对应安装包
+- Windows: `.msi` 安装包 或 `.zip` 便携版
+- Linux: `.deb` / `.rpm` / `.AppImage` / `.flatpak`
+
+### 2. 基础使用流程
+
+```
+1. 添加 Provider
+   └─ 点击 "Add Provider" → 选择预设或自定义
+
+2. 切换 Provider
+   ├─ 主界面：选择 Provider → 点击 "Enable"
+   └─ 系统托盘：直接点击 Provider 名称（即时生效）
+
+3. 生效方式
+   └─ 重启终端或 Claude Code / Codex / Gemini 客户端
+
+4. 恢复官方登录
+   └─ 选择 "Official Login" 预设 → 重新登录
+```
+
+### 3. MCP 服务器管理
+
+```
+位置：点击右上角 "MCP" 按钮
+
+添加服务器：
+├─ 使用内置模板（mcp-fetch, mcp-filesystem 等）
+├─ 支持 stdio / http / sse 三种传输类型
+└─ 可为不同应用配置独立的 MCP 服务器
+
+同步机制：
+└─ 启用的服务器自动同步到各应用的配置文件
+   ├─ Claude: ~/.claude.json → mcpServers
+   ├─ Codex: ~/.codex/config.toml → [mcp_servers]
+   └─ Gemini: ~/.gemini/settings.json → mcpServers
+```
+
+### 4. Skills 管理（Claude 专属）
+
+```
+位置：点击右上角 "Skills" 按钮
+
+发现 Skills：
+├─ 自动扫描预配置的 GitHub 仓库
+├─ Anthropic 官方仓库
+├─ ComposioHQ 仓库
+└─ 社区仓库
+
+安装位置：~/.claude/skills/
+```
+
+### 5. Prompts 管理
+
+```
+位置：点击右上角 "Prompts" 按钮
+
+同步目标：
+├─ Claude: ~/.claude/CLAUDE.md
+├─ Codex: ~/.codex/AGENTS.md
+└─ Gemini: ~/.gemini/GEMINI.md
+
+特性：
+├─ 无限预设，快速切换
+├─ Markdown 编辑器 + 实时预览
+└─ 智能回填保护（保留手动修改）
+```
+
+### 6. 云同步配置（跨设备）
+
+```bash
+# 设置步骤
+1. 设置 → "Custom Configuration Directory"
+2. 选择云盘文件夹（Dropbox / OneDrive / iCloud）
+3. 重启应用
+4. 在其他设备重复上述步骤
+```
+
+### 7. 本地开发（如需二次开发）
+
+**环境要求**：
+- Node.js 18+
+- pnpm 8+
+- Rust 1.85+
+- Tauri CLI 2.8+
+
+**开发命令**：
+```bash
+# 安装依赖
+pnpm install
+
+# 开发模式（热重载）
+pnpm dev
+
+# 类型检查
+pnpm typecheck
+
+# 运行测试
+pnpm test:unit
+
+# 构建应用
+pnpm build
+```
+
+### 8. 常见问题
+
+| 问题 | 解决方案 |
+|------|----------|
+| macOS 提示"未知开发者" | 系统设置 → 隐私与安全 → 点击"仍要打开" |
+| 切换后配置未生效 | 重启终端或对应的 AI CLI 客户端 |
+| 想恢复官方登录 | 选择 "Official Login" 预设 → 重启客户端 → 重新登录 |
+| MCP 服务器未同步 | 检查服务器是否已启用（开关状态） |
+
+---
+
 ## 行动清单
+
+### 即时行动（上手实践）
+
+- [ ] **安装 CC-Switch**：选择适合你平台的安装方式
+- [ ] **添加第一个 Provider**：配置你常用的 API 提供商
+- [ ] **测试切换功能**：在系统托盘中快速切换并验证生效
+- [ ] **导入现有 MCP**：从 Claude/Codex 配置文件导入已有 MCP 服务器
+
+### 深度学习（架构理解）
 
 - [ ] **理解 SSOT 模式**：设计配置工具时，首先确定唯一数据源
 - [ ] **学习原子写入**：实践临时文件 + 重命名的写入模式
