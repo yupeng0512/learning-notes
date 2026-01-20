@@ -71,7 +71,6 @@
 | 2026-01-16 | Superpowers - Claude Code 工程化工作流技能集 | AI IDE | [查看](./ai-tools/ai-ide/2026-01-16-superpowers-claude-code-skills.md) |
 | 2026-01-16 | UI-TARS Desktop - 字节开源 AI 操作电脑 | 浏览器自动化 | [查看](./ai-tools/browser-automation/2026-01-16-ui-tars-desktop.md) |
 | 2026-01-16 | Chrome DevTools MCP - AI 控制 Chrome 调试神器 | MCP 工具 | [查看](./ai-tools/mcp/2026-01-16-chrome-devtools-mcp.md) |
-- [2026-01-20] [Rube.app - AI Agent 的操作执行层](./ai-tools/mcp/2026-01-20-rube-composio-ai-action-layer.md) 🆕
 | 2026-01-16 | Memos - 注重隐私的轻量级笔记工具 | 命令行工具 | [查看](./tools/2026-01-16-memos-lightweight-notes.md) |
 
 ---
