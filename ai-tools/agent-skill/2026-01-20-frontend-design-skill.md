@@ -173,21 +173,36 @@ Typography: Choose fonts that are beautiful, unique, and interesting.
 
 ---
 
-## 七、与 Planning with Files Skill 的对比
+## 七、关联历史笔记
 
-| 维度 | Planning with Files | Frontend Design |
-|------|---------------------|-----------------|
-| **对抗的 AI 缺陷** | 记忆缺失（Context 丢失）| 创意趋同（输出平庸）|
-| **核心策略** | 用文件系统扩展 RAM | 用负面清单偏离分布 |
-| **文件角色** | 任务状态持久化 | 设计意图显式化 |
-| **适用场景** | 多步骤复杂任务 | 前端界面生成 |
-| **共同点** | 都是对 AI 默认行为的系统性干预 |
+> 以下是与本文**主题相关**的历史学习笔记（按相关性排序，非时间顺序）
 
-**统一公式**：
+| 历史笔记 | 关系类型 | 关联说明 |
+|----------|----------|----------|
+| [UI/UX Pro Max Skill](./2026-01-02-ui-ux-skill-and-acp-protocol.md) | **深化** | 同为前端设计 Skill，UI/UX Pro Max 提供 57 样式 + 95 配色的「资源库」，Frontend Design 提供「方法论」|
+| [Prompt Engineering](./2026-01-04-prompt-engineering.md) | **对比** | 都是引导 AI 输出的策略，但 Prompt Engineering 强调正面激活，Frontend Design 强调负面封堵 |
+| [Agent Skills for Context Engineering](./2026-01-09-agent-skills-context-engineering.md) | **互补** | Context Engineering 解决「记什么」，Frontend Design 解决「怎么做」—— 两者共同构成 Skill 设计方法论 |
+| [Agentic Patterns](./2026-01-04-agentic-patterns.md) | **应用** | Agentic Patterns 定义 Agent 行为模式，Frontend Design 是其中「反思模式」的具体应用 —— 通过约束迫使 AI 反思默认选择 |
+
+**知识网络**：
 
 ```
-Skill = 针对特定 AI 缺陷的系统性补丁
+Frontend Design Skill（对抗创意趋同）
+│
+├─ 深化：UI/UX Pro Max Skill → 资源库 vs 方法论
+├─ 对比：Prompt Engineering → 正面激活 vs 负面封堵
+├─ 互补：Context Engineering → 记什么 vs 怎么做
+└─ 应用：Agentic Patterns → 反思模式的具体实例
 ```
+
+### Skill 设计的两条路线
+
+| 路线 | 代表 Skill | 核心策略 | 适用场景 |
+|------|-----------|----------|----------|
+| **资源增强** | UI/UX Pro Max | 提供丰富选项让 AI 选择 | AI 缺乏领域知识时 |
+| **行为约束** | Frontend Design | 封堵默认路径强制探索 | AI 有能力但趋于保守时 |
+
+**洞察**：最佳 Skill 设计 = 资源增强 + 行为约束的组合
 
 ---
 

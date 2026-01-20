@@ -182,6 +182,40 @@
 
 ---
 
+## 🔗 关联历史笔记
+
+> 以下是与本文**主题相关**的历史学习笔记（按相关性排序，非时间顺序）
+
+| 历史笔记 | 关系类型 | 关联说明 |
+|----------|----------|----------|
+| [AgeMem 统一长短期记忆框架](../../ai-research/2026-01-16-agentic-memory-unified-ltm-stm.md) | **对比** | Claude 知识库是产品方案（外挂 RAG），AgeMem 是学术方案（RL 训练）—— 两种 AI 记忆的技术路线 |
+| [Claude-Mem 持久化记忆系统](../agent-architecture/2026-01-17-claude-mem-analysis.md) | **互补** | Claude Cowork 知识库管理「长期身份记忆」，Claude-Mem 管理「任务执行记忆」—— 不同记忆层级 |
+| [Planning with Files Skill](../agent-skill/2026-01-20-planning-with-files-skill.md) | **互补** | 知识库 = L2/L3 身份层（我是谁），Planning with Files = L1 任务层（怎么做）—— 分层记忆体系 |
+| [Agent Skills for Context Engineering](../agent-skill/2026-01-09-agent-skills-context-engineering.md) | **深化** | 知识库是 Context Engineering 的产品化体现，该项目是 Context Engineering 的工程化实践 |
+
+**知识网络**：
+
+```
+Claude Cowork 知识库（AI 记忆的产品化）
+│
+├─ 对比：AgeMem → 产品方案（RAG）vs 学术方案（RL）
+├─ 互补：Claude-Mem → 身份记忆 vs 任务记忆
+├─ 互补：Planning with Files → L2/L3 层 vs L1 层
+└─ 深化：Context Engineering → 理念 vs 工程实践
+```
+
+### AI 记忆分层模型
+
+| 层级 | 内容 | 生命周期 | 对应方案 |
+|------|------|----------|----------|
+| **L1 任务层** | 当前任务的计划、进度、发现 | 任务级 | Planning with Files |
+| **L2 项目层** | 项目背景、技术栈、约定 | 项目级 | Claude-Mem / 知识库 |
+| **L3 身份层** | 用户偏好、沟通风格、长期目标 | 永久 | Claude Cowork 知识库 |
+
+**洞察**：完整的 AI 记忆体系需要三层配合，而非单一方案解决所有问题
+
+---
+
 ## ✅ 行动清单
 
 ### 即时行动

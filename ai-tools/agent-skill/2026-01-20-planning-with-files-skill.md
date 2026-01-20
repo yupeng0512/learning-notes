@@ -94,19 +94,38 @@ AFTER 3 FAILURES: Escalate to User（升级给用户）
 
 ---
 
-## 五、与 Claude Cowork 知识库对比
+## 五、关联历史笔记
 
-| 维度 | Planning with Files | Claude Cowork 知识库 |
-|------|---------------------|----------------------|
-| **层级** | L1 任务层（这个任务怎么做） | L2/L3 身份层（我是谁、项目是什么） |
-| **生命周期** | 任务级（做完可删） | 长期（跨任务持久） |
-| **存储位置** | 本地文件系统 | Anthropic 云端 |
-| **用户控制** | 完全控制（Markdown 文件） | 有限控制（知识库 UI） |
-| **适用场景** | 复杂任务执行 | 个人偏好、项目背景 |
+> 以下是与本文**主题相关**的历史学习笔记（按相关性排序，非时间顺序）
 
-**关系**：互补而非替代
-- 知识库告诉 Claude「你在和谁合作、项目背景是什么」
-- Planning with Files 告诉 Claude「这个具体任务怎么一步步做」
+| 历史笔记 | 关系类型 | 关联说明 |
+|----------|----------|----------|
+| [Agent Skills for Context Engineering](../agent-skill/2026-01-09-agent-skills-context-engineering.md) | **深化** | 同为 Context Engineering 实践，Planning with Files 是 3-File Pattern，该项目是完整的 5 大技能模块体系 |
+| [AgeMem 统一长短期记忆框架](../../ai-research/2026-01-16-agentic-memory-unified-ltm-stm.md) | **对比** | 都解决 AI 记忆问题，Planning with Files 用外部文件（工程方案），AgeMem 用 RL 训练（学术方案）|
+| [Claude-Mem 持久化记忆系统](../agent-architecture/2026-01-17-claude-mem-analysis.md) | **互补** | Claude-Mem 自动捕获 + 语义压缩，Planning with Files 手动规划 + 显式存储 —— 两者可结合使用 |
+| [Agentic Patterns](../agent-skill/2026-01-04-agentic-patterns.md) | **应用** | Planning with Files 是「规划模式（Planning/ReAct）」的工程化实现 |
+
+**知识网络**：
+
+```
+Planning with Files（Context Engineering 实践）
+│
+├─ 深化：Agent Skills for Context Engineering → 单一模式 vs 完整体系
+├─ 对比：AgeMem → 工程方案（文件）vs 学术方案（RL 训练）
+├─ 互补：Claude-Mem → 自动捕获 vs 手动规划
+└─ 应用：Agentic Patterns → 规划模式的工程化实现
+```
+
+### AI 记忆方案对比
+
+| 方案 | 存储位置 | 触发方式 | 用户控制 | 适用场景 |
+|------|----------|----------|----------|----------|
+| **Planning with Files** | 本地文件 | 手动 | 完全控制 | 复杂任务执行 |
+| **Claude-Mem** | 本地 + 向量库 | 自动 Hook | 部分控制 | 日常开发记忆 |
+| **AgeMem** | 外部记忆系统 | RL 学习 | 无直接控制 | 学术研究 |
+| **Claude Cowork 知识库** | 云端 | 用户管理 | UI 可控 | 长期偏好存储 |
+
+**洞察**：不同方案针对不同的记忆层级（L1 任务层 → L3 身份层），可组合使用
 
 ---
 
