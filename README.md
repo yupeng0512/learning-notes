@@ -6,9 +6,9 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **60** |
+| 🤖 AI 工具与效率 | | **\*\*61\*\*** |
 | | └─ AI IDE | 10 |
-| | └─ MCP 工具 | 4 |
+| | └─ MCP 工具 | 5 |
 | | └─ Agent & Skill | 21 |
 | | └─ AI 模型应用 | 5 |
 | | └─ AI 视频生成 | 2 |
@@ -28,7 +28,7 @@
 | ⌨️ 命令行工具 | | 4 |
 | 📖 社会学 | | 1 |
 
-**总计：79 篇笔记**
+**总计：80 篇笔记**
 
 ---
 
@@ -36,6 +36,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-20 | Rube.app - AI Agent 的操作执行层 | MCP 工具 | [查看](./ai-tools/mcp/2026-01-20-rube-composio-ai-action-layer.md) |
 | 2026-01-20 | Skills Installer - AI 编程助手的 Skill 包管理器 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-skills-installer-cli.md) |
 | 2026-01-20 | Frontend Design Skill - Anthropic 官方对抗 AI Slop 的设计方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md) |
 | 2026-01-20 | Planning with Files Skill - Manus 20 亿美金的 Context Engineering | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md) |
@@ -70,6 +71,7 @@
 | 2026-01-16 | Superpowers - Claude Code 工程化工作流技能集 | AI IDE | [查看](./ai-tools/ai-ide/2026-01-16-superpowers-claude-code-skills.md) |
 | 2026-01-16 | UI-TARS Desktop - 字节开源 AI 操作电脑 | 浏览器自动化 | [查看](./ai-tools/browser-automation/2026-01-16-ui-tars-desktop.md) |
 | 2026-01-16 | Chrome DevTools MCP - AI 控制 Chrome 调试神器 | MCP 工具 | [查看](./ai-tools/mcp/2026-01-16-chrome-devtools-mcp.md) |
+- [2026-01-20] [Rube.app - AI Agent 的操作执行层](./ai-tools/mcp/2026-01-20-rube-composio-ai-action-layer.md) 🆕
 | 2026-01-16 | Memos - 注重隐私的轻量级笔记工具 | 命令行工具 | [查看](./tools/2026-01-16-memos-lightweight-notes.md) |
 
 ---
@@ -97,6 +99,7 @@
 
 - [2026-01-16] [文章同步助手 Wechatsync - 多平台内容分发 + MCP](./ai-tools/mcp/2026-01-16-wechatsync-article-sync-assistant.md)
 - [2026-01-16] [Chrome DevTools MCP - AI 控制 Chrome 调试神器](./ai-tools/mcp/2026-01-16-chrome-devtools-mcp.md)
+- [2026-01-20] [Rube.app - AI Agent 的操作执行层](./ai-tools/mcp/2026-01-20-rube-composio-ai-action-layer.md) 🆕
 - [2026-01-05] [MCP Server/Client 概念详解](./ai-tools/mcp/2026-01-05-mcp-server-client-concepts.md)
 - [2026-01-05] [MCP 架构概述](./ai-tools/mcp/2026-01-05-mcp-architecture.md)
 
