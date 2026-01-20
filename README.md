@@ -6,10 +6,10 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **58** |
+| 🤖 AI 工具与效率 | | **59** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 4 |
-| | └─ Agent & Skill | 19 |
+| | └─ Agent & Skill | 20 |
 | | └─ AI 模型应用 | 5 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
@@ -28,7 +28,7 @@
 | ⌨️ 命令行工具 | | 4 |
 | 📖 社会学 | | 1 |
 
-**总计：77 篇笔记**
+**总计：78 篇笔记**
 
 ---
 
@@ -36,6 +36,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-20 | Frontend Design Skill - Anthropic 官方对抗 AI Slop 的设计方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md) |
 | 2026-01-20 | Planning with Files Skill - Manus 20 亿美金的 Context Engineering | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md) |
 | 2026-01-20 | Claude Cowork 永久记忆升级深度解析 | AI 模型应用 | [查看](./ai-tools/ai-model/2026-01-20-claude-cowork-knowledge-bases.md) |
 | 2026-01-19 | TranslateGemma - Google 开源翻译模型里程碑 | 翻译模型 | [查看](./ai-research/translation/2026-01-19-translategemma-google-open-translation.md) |
@@ -101,6 +102,7 @@
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
 - [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md) 🆕
+- [2026-01-20] [Frontend Design Skill - 对抗 AI Slop 的设计方法论](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md) 🆕
 - [2026-01-20] [Planning with Files Skill - Manus 20 亿美金的 Context Engineering](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md) 🆕
 - [2026-01-19] [OctoCodingBench - Coding Agent 过程合规评测新标准](./ai-tools/agent-architecture/2026-01-19-octocodingbench-process-evaluation.md)
 - [2026-01-17] [Open Responses API - 下一代 LLM API 调用规范](./ai-tools/agent-architecture/2026-01-17-open-responses-api.md)
