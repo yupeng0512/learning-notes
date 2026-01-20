@@ -6,11 +6,11 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **\*\*61\*\*** |
+| 🤖 AI 工具与效率 | | **\*\*62\*\*** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 5 |
 | | └─ Agent & Skill | 21 |
-| | └─ AI 模型应用 | 5 |
+| | └─ AI 模型应用 | 6 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 9 |
@@ -28,7 +28,7 @@
 | ⌨️ 命令行工具 | | 4 |
 | 📖 社会学 | | 1 |
 
-**总计：80 篇笔记**
+**总计：81 篇笔记**
 
 ---
 
@@ -36,11 +36,11 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-20 | 大模型 API 计费规则深度解析 | AI 模型应用 | [查看](./ai-tools/ai-model/2026-01-20-llm-api-pricing-rules.md) |
 | 2026-01-20 | Rube.app - AI Agent 的操作执行层 | MCP 工具 | [查看](./ai-tools/mcp/2026-01-20-rube-composio-ai-action-layer.md) |
 | 2026-01-20 | Skills Installer - AI 编程助手的 Skill 包管理器 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-skills-installer-cli.md) |
 | 2026-01-20 | Frontend Design Skill - Anthropic 官方对抗 AI Slop 的设计方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md) |
 | 2026-01-20 | Planning with Files Skill - Manus 20 亿美金的 Context Engineering | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md) |
-- [2026-01-20] [Skills Installer - AI 编程助手的 Skill 包管理器](./ai-tools/agent-skill/2026-01-20-skills-installer-cli.md) 🆕
 | 2026-01-20 | Claude Cowork 永久记忆升级深度解析 | AI 模型应用 | [查看](./ai-tools/ai-model/2026-01-20-claude-cowork-knowledge-bases.md) |
 | 2026-01-19 | TranslateGemma - Google 开源翻译模型里程碑 | 翻译模型 | [查看](./ai-research/translation/2026-01-19-translategemma-google-open-translation.md) |
 | 2026-01-19 | O-Researcher - OPPO 开源深度研究模型 | 深度研究 | [查看](./ai-research/deep-research/2026-01-19-o-researcher-oppo-open-deep-research.md) |
@@ -130,7 +130,8 @@
 #### 🧠 AI 模型应用 (`ai-tools/ai-model/`)
 > 语音识别、音频处理、端侧模型等
 
-- [2026-01-20] [Claude Cowork 永久记忆升级深度解析](./ai-tools/ai-model/2026-01-20-claude-cowork-knowledge-bases.md) 🆕
+- [2026-01-20] [大模型 API 计费规则深度解析](./ai-tools/ai-model/2026-01-20-llm-api-pricing-rules.md) 🆕
+- [2026-01-20] [Claude Cowork 永久记忆升级深度解析](./ai-tools/ai-model/2026-01-20-claude-cowork-knowledge-bases.md)
 - [2026-01-16] [NovaSR - 52KB 极致轻量音频超分辨率模型](./ai-tools/ai-model/2026-01-16-novasr-audio-super-resolution.md)
 - [2026-01-16] [AgentCPM-Explore 4B 端侧智能体](./ai-tools/ai-model/2026-01-16-agentcpm-explore-4b-agent.md)
 - [2026-01-09] [NVIDIA Nemotron Speech ASR - 实时流式语音识别模型](./ai-tools/ai-model/2026-01-09-nvidia-nemotron-speech-asr.md)
