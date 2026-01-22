@@ -6,8 +6,8 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **68** |
-| | └─ AI IDE | 10 |
+| 🤖 AI 工具与效率 | | **69** |
+| | └─ AI IDE | 11 |
 | | └─ MCP 工具 | 5 |
 | | └─ Agent & Skill | 24 |
 | | └─ AI 模型应用 | 6 |
@@ -31,7 +31,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：88 篇笔记**
+**总计：89 篇笔记**
 
 ---
 
@@ -39,6 +39,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-22 | AI IDE 扩展机制对比：Rules/Skills/Commands/Agents | AI IDE | [查看](./ai-tools/ai-ide/2026-01-22-ai-ide-extension-mechanisms-comparison.md) |
 | 2026-01-22 | Dan Koe - 如何用一天时间重整你的人生 | 行为改变 | [查看](./self-growth/behavior-change/2026-01-22-dan-koe-reinvent-life-in-one-day.md) |
 | 2026-01-22 | Skill Seekers - 自动化 Skill 生成工具 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-22-skill-seekers-automated-skill-generator.md) |
 | 2026-01-22 | GitHub 开源项目 Skill 化方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-22-github-to-skill-methodology.md) |
@@ -92,6 +93,7 @@
 #### 🖥️ AI IDE (`ai-tools/ai-ide/`)
 > Claude Code、Cursor、OpenCode 等 AI 编程工具
 
+- [2026-01-22] [AI IDE 扩展机制对比：Rules/Skills/Commands/Agents](./ai-tools/ai-ide/2026-01-22-ai-ide-extension-mechanisms-comparison.md) 🆕
 - [2026-01-16] [Vibe Kanban - AI 编程代理编排平台实操指南](./ai-tools/ai-ide/2026-01-16-vibe-kanban-multi-agent-orchestration.md)
 - [2026-01-16] [Cursor 多 Agent 并发编码协调经验](./ai-tools/ai-ide/2026-01-16-cursor-multi-agent-coordination.md)
 - [2026-01-16] [Superpowers - Claude Code 工程化工作流技能集](./ai-tools/ai-ide/2026-01-16-superpowers-claude-code-skills.md)
