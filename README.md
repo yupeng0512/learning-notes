@@ -6,10 +6,10 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **64** |
+| 🤖 AI 工具与效率 | | **65** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 5 |
-| | └─ Agent & Skill | 21 |
+| | └─ Agent & Skill | 22 |
 | | └─ AI 模型应用 | 6 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
@@ -28,7 +28,7 @@
 | ⌨️ 命令行工具 | | 4 |
 | 📖 社会学 | | 1 |
 
-**总计：83 篇笔记**
+**总计：84 篇笔记**
 
 ---
 
@@ -36,6 +36,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-22 | MemOS - AI 记忆操作系统：为 Agent 装上海马体 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-22-memos-ai-memory-operating-system.md) |
 | 2026-01-22 | GitIngest - 将 GitHub 仓库转换为 LLM 友好的纯文本 | AI 生产力 | [查看](./ai-tools/ai-productivity/2026-01-22-gitingest-repo-to-llm-context.md) |
 | 2026-01-22 | Typeless - 智能语音听写：口语到书面语的翻译器 | AI 生产力 | [查看](./ai-tools/ai-productivity/2026-01-22-typeless-voice-dictation.md) |
 | 2026-01-20 | 大模型 API 计费规则深度解析 | AI 模型应用 | [查看](./ai-tools/ai-model/2026-01-20-llm-api-pricing-rules.md) |
@@ -107,10 +108,11 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
-- [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md) 🆕
-- [2026-01-20] [Frontend Design Skill - 对抗 AI Slop 的设计方法论](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md) 🆕
-- [2026-01-20] [Planning with Files Skill - Manus 20 亿美金的 Context Engineering](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md) 🆕
-- [2026-01-20] [Skills Installer - AI 编程助手的 Skill 包管理器](./ai-tools/agent-skill/2026-01-20-skills-installer-cli.md) 🆕
+- [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md)
+- [2026-01-22] [MemOS - AI 记忆操作系统：为 Agent 装上海马体](./ai-tools/agent-architecture/2026-01-22-memos-ai-memory-operating-system.md) 🆕
+- [2026-01-20] [Frontend Design Skill - 对抗 AI Slop 的设计方法论](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md)
+- [2026-01-20] [Planning with Files Skill - Manus 20 亿美金的 Context Engineering](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md)
+- [2026-01-20] [Skills Installer - AI 编程助手的 Skill 包管理器](./ai-tools/agent-skill/2026-01-20-skills-installer-cli.md)
 - [2026-01-19] [OctoCodingBench - Coding Agent 过程合规评测新标准](./ai-tools/agent-architecture/2026-01-19-octocodingbench-process-evaluation.md)
 - [2026-01-17] [Open Responses API - 下一代 LLM API 调用规范](./ai-tools/agent-architecture/2026-01-17-open-responses-api.md)
 - [2026-01-17] [Claude Agent SDK 构建 AI Agent 完整指南](./ai-tools/agent-architecture/2026-01-17-claude-agent-sdk-guide.md)
