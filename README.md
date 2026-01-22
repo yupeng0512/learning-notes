@@ -6,10 +6,10 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **66** |
+| 🤖 AI 工具与效率 | | **68** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 5 |
-| | └─ Agent & Skill | 22 |
+| | └─ Agent & Skill | 24 |
 | | └─ AI 模型应用 | 6 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
@@ -29,7 +29,7 @@
 | ⌨️ 命令行工具 | | 4 |
 | 📖 社会学 | | 1 |
 
-**总计：85 篇笔记**
+**总计：87 篇笔记**
 
 ---
 
@@ -37,6 +37,8 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-22 | Skill Seekers - 自动化 Skill 生成工具 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-22-skill-seekers-automated-skill-generator.md) |
+| 2026-01-22 | GitHub 开源项目 Skill 化方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-22-github-to-skill-methodology.md) |
 | 2026-01-22 | Prompt Repetition - 重复提示词让非推理模型更聪明 | Prompt 工程 | [查看](./ai-tools/prompt-engineering/2026-01-22-prompt-repetition-improves-non-reasoning-llms.md) |
 | 2026-01-22 | MemOS - AI 记忆操作系统：为 Agent 装上海马体 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-22-memos-ai-memory-operating-system.md) |
 | 2026-01-22 | GitIngest - 将 GitHub 仓库转换为 LLM 友好的纯文本 | AI 生产力 | [查看](./ai-tools/ai-productivity/2026-01-22-gitingest-repo-to-llm-context.md) |
@@ -110,8 +112,10 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
+- [2026-01-22] [Skill Seekers - 自动化 Skill 生成工具](./ai-tools/agent-skill/2026-01-22-skill-seekers-automated-skill-generator.md) 🆕
+- [2026-01-22] [GitHub 开源项目 Skill 化方法论](./ai-tools/agent-skill/2026-01-22-github-to-skill-methodology.md) 🆕
+- [2026-01-22] [MemOS - AI 记忆操作系统：为 Agent 装上海马体](./ai-tools/agent-architecture/2026-01-22-memos-ai-memory-operating-system.md)
 - [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md)
-- [2026-01-22] [MemOS - AI 记忆操作系统：为 Agent 装上海马体](./ai-tools/agent-architecture/2026-01-22-memos-ai-memory-operating-system.md) 🆕
 - [2026-01-20] [Frontend Design Skill - 对抗 AI Slop 的设计方法论](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md)
 - [2026-01-20] [Planning with Files Skill - Manus 20 亿美金的 Context Engineering](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md)
 - [2026-01-20] [Skills Installer - AI 编程助手的 Skill 包管理器](./ai-tools/agent-skill/2026-01-20-skills-installer-cli.md)
