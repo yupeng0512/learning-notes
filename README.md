@@ -212,6 +212,12 @@
 
 - [2026-01-19] [AI 时代软件工程师的未来：五个关键问题](./ai-tools/career-development/2026-01-19-addy-osmani-next-two-years.md)
 
+#### 📝 Prompt 工程 (`ai-tools/prompt-engineering/`)
+> 提示词框架、Prompt 优化技巧、LLM 交互方法论
+
+- [2026-01-22] [57 种 Prompt 框架分类学 - 系统性掌握提示词工程](./ai-tools/prompt-engineering/2026-01-22-57-prompt-frameworks-taxonomy.md) 🆕
+- [2026-01-22] [Prompt Repetition - 重复提示词让非推理模型更聪明](./ai-tools/prompt-engineering/2026-01-22-prompt-repetition-improves-non-reasoning-llms.md)
+
 ---
 
 ### 🧠 AI/ML 技术 (`ai-ml/`)
@@ -288,6 +294,7 @@
 | **行业洞察** | `ai-tools/industry/` | 峰会总结、年度回顾、趋势分析 |
 | **OSINT 工具** | `ai-tools/osint-tools/` | 网站分析、信息收集、安全侦察 |
 | **职业发展** | `ai-tools/career-development/` | AI 时代职业规划、技能发展、行业趋势 |
+| **Prompt 工程** | `ai-tools/prompt-engineering/` | 提示词框架、Prompt 优化技巧、LLM 交互方法论 |
 
 ### AI 研究子分类
 
