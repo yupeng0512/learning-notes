@@ -144,7 +144,7 @@
 - [2026-01-04] [Agentic Patterns - AI Agent 设计模式原理](./ai-tools/agent-skill/2026-01-04-agentic-patterns.md)
 - [2026-01-04] [Anthropic Advanced Tool Use 三件套](./ai-tools/agent-skill/2026-01-04-anthropic-advanced-tool-use.md)
 - [2026-01-04] [Prompt Engineering 提示词工程](./ai-tools/agent-skill/2026-01-04-prompt-engineering.md)
-- [2026-01-02] [UI/UX Pro Max Skill 与 Zed ACP 协议](./ai-tools/agent-skill/2026-01-02-ui-ux-skill-and-acp-protocol.md)
+- [2026-01-02] [UI/UX Pro Max Skill - AI 助手的设计大脑](./ai-tools/agent-skill/2026-01-02-ui-ux-pro-max-skill.md)
 
 #### 🧠 AI 模型应用 (`ai-tools/ai-model/`)
 > 语音识别、音频处理、端侧模型等
