@@ -6,10 +6,10 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **70** |
+| 🤖 AI 工具与效率 | | **71** |
 | | └─ AI IDE | 11 |
 | | └─ MCP 工具 | 5 |
-| | └─ Agent & Skill | 25 |
+| | └─ Agent & Skill | 26 |
 | | └─ AI 模型应用 | 6 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
@@ -31,7 +31,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：91 篇笔记**
+**总计：92 篇笔记**
 
 ---
 
@@ -39,6 +39,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-22 | ACP 协议详解 - Agent 与编辑器的通用通信标准 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-22-acp-agent-client-protocol-spec.md) |
 | 2026-01-22 | 57 种 Prompt 框架分类学 - 系统性掌握提示词工程 | Prompt 工程 | [查看](./ai-tools/prompt-engineering/2026-01-22-57-prompt-frameworks-taxonomy.md) |
 | 2026-01-22 | Skill Lookup - prompts.chat 平台的 Skill 发现与安装技能 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-22-skill-lookup-mcp-discovery.md) |
 | 2026-01-22 | AI IDE 扩展机制对比：Rules/Skills/Commands/Agents | AI IDE | [查看](./ai-tools/ai-ide/2026-01-22-ai-ide-extension-mechanisms-comparison.md) |
@@ -123,6 +124,7 @@
 - [2026-01-22] [Skill Seekers - 自动化 Skill 生成工具](./ai-tools/agent-skill/2026-01-22-skill-seekers-automated-skill-generator.md) 🆕
 - [2026-01-22] [GitHub 开源项目 Skill 化方法论](./ai-tools/agent-skill/2026-01-22-github-to-skill-methodology.md) 🆕
 - [2026-01-22] [MemOS - AI 记忆操作系统：为 Agent 装上海马体](./ai-tools/agent-architecture/2026-01-22-memos-ai-memory-operating-system.md)
+- [2026-01-22] [ACP 协议详解 - Agent 与编辑器的通用通信标准](./ai-tools/agent-architecture/2026-01-22-acp-agent-client-protocol-spec.md) 🆕
 - [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md)
 - [2026-01-20] [Frontend Design Skill - 对抗 AI Slop 的设计方法论](./ai-tools/agent-skill/2026-01-20-frontend-design-skill.md)
 - [2026-01-20] [Planning with Files Skill - Manus 20 亿美金的 Context Engineering](./ai-tools/agent-skill/2026-01-20-planning-with-files-skill.md)
