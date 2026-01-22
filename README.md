@@ -6,7 +6,7 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **63** |
+| 🤖 AI 工具与效率 | | **64** |
 | | └─ AI IDE | 10 |
 | | └─ MCP 工具 | 5 |
 | | └─ Agent & Skill | 21 |
@@ -14,7 +14,7 @@
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
 | | └─ 效率工具 | 9 |
-| | └─ AI 生产力 | 5 |
+| | └─ AI 生产力 | 6 |
 | | └─ 开发案例 | 3 |
 | | └─ 行业洞察 | 1 |
 | | └─ OSINT 工具 | 1 |
@@ -28,7 +28,7 @@
 | ⌨️ 命令行工具 | | 4 |
 | 📖 社会学 | | 1 |
 
-**总计：82 篇笔记**
+**总计：83 篇笔记**
 
 ---
 
@@ -36,6 +36,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-22 | GitIngest - 将 GitHub 仓库转换为 LLM 友好的纯文本 | AI 生产力 | [查看](./ai-tools/ai-productivity/2026-01-22-gitingest-repo-to-llm-context.md) |
 | 2026-01-22 | Typeless - 智能语音听写：口语到书面语的翻译器 | AI 生产力 | [查看](./ai-tools/ai-productivity/2026-01-22-typeless-voice-dictation.md) |
 | 2026-01-20 | 大模型 API 计费规则深度解析 | AI 模型应用 | [查看](./ai-tools/ai-model/2026-01-20-llm-api-pricing-rules.md) |
 | 2026-01-20 | Rube.app - AI Agent 的操作执行层 | MCP 工具 | [查看](./ai-tools/mcp/2026-01-20-rube-composio-ai-action-layer.md) |
@@ -166,7 +167,8 @@
 #### 🎨 AI 生产力 (`ai-tools/ai-productivity/`)
 > AI 生成前端界面的工具与协议、AI CLI 配置管理
 
-- [2026-01-22] [Typeless - 智能语音听写：口语到书面语的翻译器](./ai-tools/ai-productivity/2026-01-22-typeless-voice-dictation.md) 🆕
+- [2026-01-22] [GitIngest - 将 GitHub 仓库转换为 LLM 友好的纯文本](./ai-tools/ai-productivity/2026-01-22-gitingest-repo-to-llm-context.md) 🆕
+- [2026-01-22] [Typeless - 智能语音听写：口语到书面语的翻译器](./ai-tools/ai-productivity/2026-01-22-typeless-voice-dictation.md)
 - [2026-01-19] [CC-Switch - AI CLI 统一配置管理工具架构精读](./ai-tools/ai-productivity/2026-01-19-cc-switch-config-manager.md)
 - [2026-01-19] [AI 生成 UI 方案对比：json-render vs A2UI](./ai-tools/ai-productivity/2026-01-19-ai-ui-generation-comparison.md)
 - [2026-01-19] [json-render - AI 生成 UI 的约束式革命](./ai-tools/ai-productivity/2026-01-19-json-render-ai-ui-generation.md)
