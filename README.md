@@ -6,7 +6,7 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **80** |
+| 🤖 AI 工具与效率 | | **81** |
 | | └─ AI IDE | 11 |
 | | └─ Claude Code | 1 |
 | | └─ MCP 工具 | 5 |
@@ -18,7 +18,7 @@
 | | └─ AI 生产力 | 6 |
 | | └─ Prompt 工程 | 2 |
 | | └─ 开发案例 | 3 |
-| | └─ 行业洞察 | 3 |
+| | └─ 行业洞察 | 4 |
 | | └─ OSINT 工具 | 1 |
 | | └─ 职业发展 | 1 |
 | | └─ AI 写作 | 1 |
@@ -35,7 +35,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：100 篇笔记**
+**总计：101 篇笔记**
 
 ---
 
@@ -43,6 +43,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-25 | OpenAI/Google 大咖揭秘：多 Agent 协作是营销骗局，痛苦才是护城河 | 行业洞察 | [查看](./ai-tools/industry/2026-01-25-openai-google-ai-product-insights.md) |
 | 2026-01-25 | VideoCut-Skills - AI 口播视频剪辑 Skill | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-25-videocut-skills-ai-video-editing.md) |
 | 2026-01-25 | Skill From Masters - 三位一体技能生成系统 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-25-skill-from-masters-trinity-skill-generator.md) |
 | 2026-01-25 | Everything Claude Code - 10 个月实战提效配置 | Claude Code | [查看](./ai-tools/claude-code/2026-01-25-everything-claude-code-efficiency-guide.md) |
@@ -226,6 +227,7 @@
 #### 📊 行业洞察 (`ai-tools/industry/`)
 > 峰会、年度总结、趋势分析、领袖访谈
 
+- [2026-01-25] [OpenAI/Google 大咖揭秘：多 Agent 协作是营销骗局，痛苦才是护城河](./ai-tools/industry/2026-01-25-openai-google-ai-product-insights.md) 🆕
 - [2026-01-24] [索尼电视告别：日本半世纪的电视帝国落幕](./ai-tools/industry/2026-01-24-sony-tv-exit-japan-display-decline.md)
 - [2026-01-22] [Demis Hassabis 达沃斯访谈 - 站在 AI 最前沿的冷静与审慎](./ai-tools/industry/2026-01-22-demis-hassabis-davos-interview.md)
 - [2026-01-16] [AGI-Next 前沿峰会 - 清华聚首中国 AI 基模四杰](./ai-tools/industry/2026-01-16-agi-next-summit-tsinghua.md)

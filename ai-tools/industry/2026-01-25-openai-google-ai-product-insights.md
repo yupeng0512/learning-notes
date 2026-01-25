@@ -1,6 +1,7 @@
 # 多 Agent 协作是营销骗局，Eval 大多是自嗨，痛苦才是护城河
 
 > 来源：Lenny's Podcast - Aishwarya Naresh Reganti (ex-OpenAI/Google/Amazon) & Kiriti Badam (OpenAI Kodex)
+> 原文：[Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon](https://www.youtube.com/watch?v=z7T1pCxgvlA)
 > 日期：2026-01-25
 > 标签：#AIProduct #Agent #Evaluation #ProductManagement #IndustryInsight
 
