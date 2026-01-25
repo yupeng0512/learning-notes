@@ -6,7 +6,7 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **85** |
+| 🤖 AI 工具与效率 | | **86** |
 | | └─ AI IDE | 11 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
@@ -14,7 +14,7 @@
 | | └─ AI 模型应用 | 6 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
-| | └─ 效率工具 | 10 |
+| | └─ 效率工具 | 11 |
 | | └─ AI 生产力 | 6 |
 | | └─ Prompt 工程 | 2 |
 | | └─ 开发案例 | 3 |
@@ -35,7 +35,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：105 篇笔记**
+**总计：106 篇笔记**
 
 ---
 
@@ -43,6 +43,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-25 | 飞书文档转微信公众号格式 Chrome 插件 | 效率工具 | [查看](./ai-tools/productivity/2026-01-25-feishu-to-wechat-chrome-extension.md) |
 | 2026-01-25 | Remotion Skill：让 AI 成为视频制作专家 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-25-remotion-skill-ai-video-generation.md) |
 | 2026-01-25 | Boris Cherny 访谈：一人军团的指挥艺术 | Claude Code | [查看](./ai-tools/claude-code/2026-01-25-boris-interview-one-man-army.md) |
 | 2026-01-25 | Claude Code 6个月 10亿美元：AI编程工具的现象级增长 | 行业洞察 | [查看](./ai-tools/industry/2026-01-25-claude-code-10b-arr-phenomenon.md) |
@@ -198,7 +199,8 @@
 #### ⚡ 效率工具 (`ai-tools/productivity/`)
 > 笔记、内容分发、演示文稿、搜索等
 
-- [2026-01-24] [Happy Coder - 移动端 AI 编程助手](./ai-tools/productivity/2026-01-24-happy-coder-mobile-ai-coding-assistant.md) 🆕
+- [2026-01-25] [飞书文档转微信公众号格式 Chrome 插件](./ai-tools/productivity/2026-01-25-feishu-to-wechat-chrome-extension.md) 🆕
+- [2026-01-24] [Happy Coder - 移动端 AI 编程助手](./ai-tools/productivity/2026-01-24-happy-coder-mobile-ai-coding-assistant.md)
 - [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md)
 - [2026-01-17] [Voquill - AI 语音转文字工作区](./ai-tools/productivity/2026-01-17-voquill-voice-to-text.md)
 - [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/productivity/2026-01-16-notebooklm-py-automation.md)
