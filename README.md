@@ -6,11 +6,11 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **84** |
+| 🤖 AI 工具与效率 | | **85** |
 | | └─ AI IDE | 11 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
-| | └─ Agent & Skill | 29 |
+| | └─ Agent & Skill | 30 |
 | | └─ AI 模型应用 | 6 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
@@ -35,7 +35,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：104 篇笔记**
+**总计：105 篇笔记**
 
 ---
 
@@ -43,6 +43,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-25 | Remotion Skill：让 AI 成为视频制作专家 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-25-remotion-skill-ai-video-generation.md) |
 | 2026-01-25 | Boris Cherny 访谈：一人军团的指挥艺术 | Claude Code | [查看](./ai-tools/claude-code/2026-01-25-boris-interview-one-man-army.md) |
 | 2026-01-25 | Claude Code 6个月 10亿美元：AI编程工具的现象级增长 | 行业洞察 | [查看](./ai-tools/industry/2026-01-25-claude-code-10b-arr-phenomenon.md) |
 | 2026-01-25 | Building Agents with Skills - Anthropic 官方 Agent Skills 技术博客 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-25-anthropic-building-agents-with-skills.md) |
@@ -141,6 +142,7 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
+- [2026-01-25] [Remotion Skill：让 AI 成为视频制作专家](./ai-tools/agent-skill/2026-01-25-remotion-skill-ai-video-generation.md) 🆕
 - [2026-01-25] [Building Agents with Skills - Anthropic 官方 Agent Skills 技术博客](./ai-tools/agent-skill/2026-01-25-anthropic-building-agents-with-skills.md) 🆕
 - [2026-01-25] [VideoCut-Skills - AI 口播视频剪辑 Skill](./ai-tools/agent-skill/2026-01-25-videocut-skills-ai-video-editing.md) 🆕
 - [2026-01-25] [Skill From Masters - 三位一体技能生成系统](./ai-tools/agent-skill/2026-01-25-skill-from-masters-trinity-skill-generator.md) 🆕
