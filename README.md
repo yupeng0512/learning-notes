@@ -1,29 +1,33 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-24
+> 最后更新：2026-01-25
 
 ## 快速统计
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **72** |
+| 🤖 AI 工具与效率 | | **80** |
 | | └─ AI IDE | 11 |
+| | └─ Claude Code | 1 |
 | | └─ MCP 工具 | 5 |
-| | └─ Agent & Skill | 26 |
+| | └─ Agent & Skill | 28 |
 | | └─ AI 模型应用 | 6 |
 | | └─ AI 视频生成 | 2 |
 | | └─ 浏览器自动化 | 3 |
-| | └─ 效率工具 | 9 |
+| | └─ 效率工具 | 10 |
 | | └─ AI 生产力 | 6 |
 | | └─ Prompt 工程 | 2 |
 | | └─ 开发案例 | 3 |
 | | └─ 行业洞察 | 3 |
 | | └─ OSINT 工具 | 1 |
 | | └─ 职业发展 | 1 |
+| | └─ AI 写作 | 1 |
 | 🧠 AI/ML 技术 | | 4 |
 | 🔬 AI 研究 | | **6** |
 | | └─ 深度研究 | 1 |
 | | └─ 翻译模型 | 1 |
+| 🤖 AI Agent | | **1** |
+| | └─ 模型 | 1 |
 | 💻 编程技术 | | 3 |
 | 🛠️ 开发工具 | | 1 |
 | ⌨️ 命令行工具 | | 4 |
@@ -31,7 +35,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：94 篇笔记**
+**总计：100 篇笔记**
 
 ---
 
@@ -39,6 +43,12 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-25 | VideoCut-Skills - AI 口播视频剪辑 Skill | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-25-videocut-skills-ai-video-editing.md) |
+| 2026-01-25 | Skill From Masters - 三位一体技能生成系统 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-01-25-skill-from-masters-trinity-skill-generator.md) |
+| 2026-01-25 | Everything Claude Code - 10 个月实战提效配置 | Claude Code | [查看](./ai-tools/claude-code/2026-01-25-everything-claude-code-efficiency-guide.md) |
+| 2026-01-25 | AgentCPM-Explore - 4B 参数端侧 SOTA Agent | AI Agent 模型 | [查看](./ai-agent/models/2026-01-25-agentcpm-explore-4b-sota-agent.md) |
+| 2026-01-24 | Humanizer-ZH - 去除 AI 写作痕迹 | AI 写作 | [查看](./ai-tools/writing/2026-01-24-humanizer-zh-remove-ai-writing-traces.md) |
+| 2026-01-24 | Happy Coder - 移动端 AI 编程助手 | 效率工具 | [查看](./ai-tools/productivity/2026-01-24-happy-coder-mobile-ai-coding-assistant.md) |
 | 2026-01-24 | 索尼电视告别：日本半世纪的电视帝国落幕 | 行业洞察 | [查看](./ai-tools/industry/2026-01-24-sony-tv-exit-japan-display-decline.md) |
 | 2026-01-22 | ACP 协议详解 - Agent 与编辑器的通用通信标准 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-22-acp-agent-client-protocol-spec.md) |
 | 2026-01-22 | 57 种 Prompt 框架分类学 - 系统性掌握提示词工程 | Prompt 工程 | [查看](./ai-tools/prompt-engineering/2026-01-22-57-prompt-frameworks-taxonomy.md) |
@@ -109,6 +119,11 @@
 - [2026-01-04] [Vibe Coding - AI 辅助开发方法论](./ai-tools/ai-ide/2026-01-04-vibe-coding-methodology.md)
 - [2025-12-29] [Claude Code 2.0 完全使用指南](./ai-tools/ai-ide/2025-12-29-claude-code-guide.md)
 
+#### 🧑‍💻 Claude Code (`ai-tools/claude-code/`)
+> Claude Code 深度使用、配置优化、实战经验
+
+- [2026-01-25] [Everything Claude Code - 10 个月实战提效配置](./ai-tools/claude-code/2026-01-25-everything-claude-code-efficiency-guide.md) 🆕
+
 #### 🔌 MCP 工具 (`ai-tools/mcp/`)
 > MCP 协议、MCP 服务器/客户端相关
 
@@ -121,9 +136,11 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
-- [2026-01-22] [Skill Lookup - prompts.chat 平台的 Skill 发现与安装技能](./ai-tools/agent-skill/2026-01-22-skill-lookup-mcp-discovery.md) 🆕
-- [2026-01-22] [Skill Seekers - 自动化 Skill 生成工具](./ai-tools/agent-skill/2026-01-22-skill-seekers-automated-skill-generator.md) 🆕
-- [2026-01-22] [GitHub 开源项目 Skill 化方法论](./ai-tools/agent-skill/2026-01-22-github-to-skill-methodology.md) 🆕
+- [2026-01-25] [VideoCut-Skills - AI 口播视频剪辑 Skill](./ai-tools/agent-skill/2026-01-25-videocut-skills-ai-video-editing.md) 🆕
+- [2026-01-25] [Skill From Masters - 三位一体技能生成系统](./ai-tools/agent-skill/2026-01-25-skill-from-masters-trinity-skill-generator.md) 🆕
+- [2026-01-22] [Skill Lookup - prompts.chat 平台的 Skill 发现与安装技能](./ai-tools/agent-skill/2026-01-22-skill-lookup-mcp-discovery.md)
+- [2026-01-22] [Skill Seekers - 自动化 Skill 生成工具](./ai-tools/agent-skill/2026-01-22-skill-seekers-automated-skill-generator.md)
+- [2026-01-22] [GitHub 开源项目 Skill 化方法论](./ai-tools/agent-skill/2026-01-22-github-to-skill-methodology.md)
 - [2026-01-22] [MemOS - AI 记忆操作系统：为 Agent 装上海马体](./ai-tools/agent-architecture/2026-01-22-memos-ai-memory-operating-system.md)
 - [2026-01-22] [ACP 协议详解 - Agent 与编辑器的通用通信标准](./ai-tools/agent-architecture/2026-01-22-acp-agent-client-protocol-spec.md) 🆕
 - [2026-01-19] [AI 对话范式转变：从实习生到启发式钥匙](./ai-tools/agent-skill/2026-01-19-ai-dialogue-paradigm-shift.md)
@@ -173,6 +190,7 @@
 #### ⚡ 效率工具 (`ai-tools/productivity/`)
 > 笔记、内容分发、演示文稿、搜索等
 
+- [2026-01-24] [Happy Coder - 移动端 AI 编程助手](./ai-tools/productivity/2026-01-24-happy-coder-mobile-ai-coding-assistant.md) 🆕
 - [2026-01-17] [Quarkdown - Markdown 增强排版神器](./ai-tools/productivity/2026-01-17-quarkdown-markdown-typesetting.md)
 - [2026-01-17] [Voquill - AI 语音转文字工作区](./ai-tools/productivity/2026-01-17-voquill-voice-to-text.md)
 - [2026-01-16] [NotebookLM-Py 自动化工具精读](./ai-tools/productivity/2026-01-16-notebooklm-py-automation.md)
@@ -182,6 +200,11 @@
 - [2026-01-09] [MiroThinker v1.5 - 开源搜索 Agent 介绍](./ai-tools/productivity/2026-01-09-mirothinker-search-agent.md)
 - [2026-01-04] [Slidev - 开发者演示文稿工具](./ai-tools/productivity/2026-01-04-slidev-guide.md)
 - [2026-01-04] [SuperWhisper - AI 语音转文字工具](./ai-tools/productivity/2026-01-04-superwhisper-voice-to-text.md)
+
+#### ✍️ AI 写作 (`ai-tools/writing/`)
+> AI 写作辅助、去 AI 痕迹、文风优化
+
+- [2026-01-24] [Humanizer-ZH - 去除 AI 写作痕迹](./ai-tools/writing/2026-01-24-humanizer-zh-remove-ai-writing-traces.md) 🆕
 
 #### 🎨 AI 生产力 (`ai-tools/ai-productivity/`)
 > AI 生成前端界面的工具与协议、AI CLI 配置管理
@@ -203,7 +226,7 @@
 #### 📊 行业洞察 (`ai-tools/industry/`)
 > 峰会、年度总结、趋势分析、领袖访谈
 
-- [2026-01-24] [索尼电视告别：日本半世纪的电视帝国落幕](./ai-tools/industry/2026-01-24-sony-tv-exit-japan-display-decline.md) 🆕
+- [2026-01-24] [索尼电视告别：日本半世纪的电视帝国落幕](./ai-tools/industry/2026-01-24-sony-tv-exit-japan-display-decline.md)
 - [2026-01-22] [Demis Hassabis 达沃斯访谈 - 站在 AI 最前沿的冷静与审慎](./ai-tools/industry/2026-01-22-demis-hassabis-davos-interview.md)
 - [2026-01-16] [AGI-Next 前沿峰会 - 清华聚首中国 AI 基模四杰](./ai-tools/industry/2026-01-16-agi-next-summit-tsinghua.md)
 
@@ -222,6 +245,15 @@
 
 - [2026-01-22] [57 种 Prompt 框架分类学 - 系统性掌握提示词工程](./ai-tools/prompt-engineering/2026-01-22-57-prompt-frameworks-taxonomy.md) 🆕
 - [2026-01-22] [Prompt Repetition - 重复提示词让非推理模型更聪明](./ai-tools/prompt-engineering/2026-01-22-prompt-repetition-improves-non-reasoning-llms.md)
+
+---
+
+### 🤖 AI Agent (`ai-agent/`)
+
+#### 🧠 模型 (`ai-agent/models/`)
+> 端侧 Agent 模型、Agent 专用模型
+
+- [2026-01-25] [AgentCPM-Explore - 4B 参数端侧 SOTA Agent](./ai-agent/models/2026-01-25-agentcpm-explore-4b-sota-agent.md) 🆕
 
 ---
 
@@ -288,18 +320,26 @@
 | 子分类 | 目录 | 内容说明 |
 |--------|------|----------|
 | **AI IDE** | `ai-tools/ai-ide/` | Claude Code、Cursor、OpenCode 等 AI 编程工具 |
+| **Claude Code** | `ai-tools/claude-code/` | Claude Code 深度使用、配置优化、实战经验 |
 | **MCP 工具** | `ai-tools/mcp/` | MCP 协议架构、MCP 服务器/客户端实现 |
 | **Agent & Skill** | `ai-tools/agent-skill/` | Agent 设计模式、Skill 系统、提示词工程、对话方法论 |
 | **AI 模型应用** | `ai-tools/ai-model/` | 语音识别、音频处理、端侧模型、LLM 应用 |
 | **AI 视频生成** | `ai-tools/ai-video/` | 视频生成模型、世界模型、实时视频、AIGC 创作工具链 |
 | **浏览器自动化** | `ai-tools/browser-automation/` | Browser Use、UI-TARS、自动化测试 |
 | **效率工具** | `ai-tools/productivity/` | 笔记、搜索、内容分发、演示文稿 |
+| **AI 写作** | `ai-tools/writing/` | AI 写作辅助、去 AI 痕迹、文风优化 |
 | **AI 生产力** | `ai-tools/ai-productivity/` | AI 生成 UI、CLI 配置管理 |
 | **开发案例** | `ai-tools/case-study/` | 实战项目复盘、最佳实践分享 |
 | **行业洞察** | `ai-tools/industry/` | 峰会总结、年度回顾、趋势分析 |
 | **OSINT 工具** | `ai-tools/osint-tools/` | 网站分析、信息收集、安全侦察 |
 | **职业发展** | `ai-tools/career-development/` | AI 时代职业规划、技能发展、行业趋势 |
 | **Prompt 工程** | `ai-tools/prompt-engineering/` | 提示词框架、Prompt 优化技巧、LLM 交互方法论 |
+
+### AI Agent 子分类
+
+| 子分类 | 目录 | 内容说明 |
+|--------|------|----------|
+| **模型** | `ai-agent/models/` | 端侧 Agent 模型、Agent 专用模型 |
 
 ### AI 研究子分类
 
