@@ -1,13 +1,13 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-26
+> 最后更新：2026-01-28
 
 ## 快速统计
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **90** |
-| | └─ AI IDE | 11 |
+| 🤖 AI 工具与效率 | | **91** |
+| | └─ AI IDE | 12 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
 | | └─ Agent & Skill | 30 |
@@ -39,7 +39,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：110 篇笔记**
+**总计：111 篇笔记**
 
 ---
 
@@ -47,6 +47,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-28 | AgentStudio - 本地 AI Agent 工作平台深度解析 | AI IDE | [查看](./ai-tools/ai-ide/20260128-agentstudio-深度解析.md) |
 | 2026-01-26 | Jina Reader - 将任何 URL 转换为 LLM 友好输入 | Web Scraping | [查看](./ai-tools/web-scraping/2026-01-26-jina-reader-llm-friendly-web-content.md) |
 | 2026-01-26 | Product Tri-Ownership - 超越头狼模式的 AI Native 团队框架 | Team Collaboration | [查看](./ai-tools/team-collaboration/2026-01-26-product-tri-ownership-beyond-super-individual.md) |
 | 2026-01-26 | Vibe Engineering 实践总结 2026 - 人机协作范式的三次跃迁 | Vibe Engineering | [查看](./ai-tools/vibe-engineering/2026-01-26-dongxu-vibe-engineering-practice-2026.md) |
