@@ -1,17 +1,17 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-28
+> 最后更新：2026-01-29
 
 ## 快速统计
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **93** |
+| 🤖 AI 工具与效率 | | **94** |
 | | └─ AI IDE | 12 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
 | | └─ Agent & Skill | 30 |
-| | └─ Agent 架构 | 4 |
+| | └─ Agent 架构 | 5 |
 | | └─ Vibe Engineering | 1 |
 | | └─ Team Collaboration | 1 |
 | | └─ Web Scraping | 1 |
@@ -39,7 +39,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：113 篇笔记**
+**总计：114 篇笔记**
 
 ---
 
@@ -47,6 +47,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-01-29 | Anthropic：长时间运行 Agent 的有效基础设施 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-long-running-agents-harness.md) |
 | 2026-01-29 | Anthropic：构建有效 AI Agent 的实践指南 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-building-effective-agents.md) |
 | 2026-01-29 | Manus 上下文工程：AI Agent 的六大实战原则 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-manus-context-engineering-for-ai-agents.md) |
 | 2026-01-28 | AgentStudio - 本地 AI Agent 工作平台深度解析 | AI IDE | [查看](./ai-tools/ai-ide/2026-01-28-agentstudio-local-ai-agent-workspace-deep-analysis.md) |
