@@ -2,7 +2,7 @@
 title: Manus 上下文工程：AI Agent 的六大实战原则
 source: https://manus.im/zh-cn/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus
 author: Yichao 'Peak' Ji
-date: 2026-01-28
+date: 2026-01-29
 category: ai-tools/agent-architecture
 tags:
   - AI Agent
