@@ -1,6 +1,6 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-01-29
+> 最后更新：2026-02-04
 
 ## 快速统计
 
@@ -39,7 +39,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：116 篇笔记**
+**总计：115 篇笔记**
 
 ---
 
@@ -47,6 +47,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-02-04 | Skill From Masters 三条路径方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-03-skill-from-masters-三条路径方法论.md) |
 | 2026-01-29 | Anthropic：为 AI Agent 编写高效工具的实践指南 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-writing-effective-tools-for-agents.md) |
 | 2026-01-29 | Anthropic：有效的上下文工程实践 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-effective-context-engineering.md) |
 | 2026-01-29 | Anthropic：长时间运行 Agent 的有效基础设施 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-long-running-agents-harness.md) |
