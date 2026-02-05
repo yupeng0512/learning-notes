@@ -1,6 +1,6 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-02-04
+> 最后更新：2026-02-05
 
 ## 快速统计
 
@@ -27,8 +27,8 @@
 | | └─ 职业发展 | 1 |
 | | └─ AI 写作 | 1 |
 | 🧠 AI/ML 技术 | | 4 |
-| 🔬 AI 研究 | | **6** |
-| | └─ 深度研究 | 1 |
+| 🔬 AI 研究 | | **7** |
+| | └─ 深度研究 | 2 |
 | | └─ 翻译模型 | 1 |
 | 🤖 AI Agent | | **1** |
 | | └─ 模型 | 1 |
@@ -39,7 +39,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：115 篇笔记**
+**总计：116 篇笔记**
 
 ---
 
@@ -47,6 +47,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-02-05 | Pathways: Google's New ML System | AI 研究 / 深度研究 | [查看](./ai-research/deep-research/20260205-pathways-google-ml-system.md) |
 | 2026-02-04 | Skill From Masters 三条路径方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-03-skill-from-masters-三条路径方法论.md) |
 | 2026-01-29 | Anthropic：为 AI Agent 编写高效工具的实践指南 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-writing-effective-tools-for-agents.md) |
 | 2026-01-29 | Anthropic：有效的上下文工程实践 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-effective-context-engineering.md) |
@@ -296,7 +297,8 @@
 #### 📊 深度研究 (`ai-research/deep-research/`)
 > 深度研究模型、多智能体蒸馏、Agentic RL
 
-- [2026-01-19] [O-Researcher - OPPO 开源深度研究模型](./ai-research/deep-research/2026-01-19-o-researcher-oppo-open-deep-research.md) 🆕
+- [2026-02-05] [Pathways: Google's New ML System](./ai-research/deep-research/20260205-pathways-google-ml-system.md) 🆕
+- [2026-01-19] [O-Researcher - OPPO 开源深度研究模型](./ai-research/deep-research/2026-01-19-o-researcher-oppo-open-deep-research.md)
 
 #### 🌐 翻译模型 (`ai-research/translation/`)
 > 机器翻译、多语言模型、本地部署翻译
