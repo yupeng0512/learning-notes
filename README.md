@@ -6,11 +6,11 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **96** |
+| 🤖 AI 工具与效率 | | **97** |
 | | └─ AI IDE | 12 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
-| | └─ Agent & Skill | 30 |
+| | └─ Agent & Skill | 31 |
 | | └─ Agent 架构 | 7 |
 | | └─ Vibe Engineering | 1 |
 | | └─ Team Collaboration | 1 |
@@ -39,7 +39,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：116 篇笔记**
+**总计：117 篇笔记**
 
 ---
 
@@ -47,6 +47,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-02-05 | OpenClaw 深度使用 6 大实战技巧 | Agent & Skill | [查看](./ai-tools/agent-skill/20260205-openclaw-6-practical-tips.md) |
 | 2026-02-05 | Pathways: Google's New ML System | AI 研究 / 深度研究 | [查看](./ai-research/deep-research/20260205-pathways-google-ml-system.md) |
 | 2026-02-04 | Skill From Masters 三条路径方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-03-skill-from-masters-三条路径方法论.md) |
 | 2026-01-29 | Anthropic：为 AI Agent 编写高效工具的实践指南 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-writing-effective-tools-for-agents.md) |
@@ -159,7 +160,8 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
-- [2026-01-25] [Remotion Skill：让 AI 成为视频制作专家](./ai-tools/agent-skill/2026-01-25-remotion-skill-ai-video-generation.md) 🆕
+- [2026-02-05] [OpenClaw 深度使用 6 大实战技巧](./ai-tools/agent-skill/20260205-openclaw-6-practical-tips.md) 🆕
+- [2026-01-25] [Remotion Skill：让 AI 成为视频制作专家](./ai-tools/agent-skill/2026-01-25-remotion-skill-ai-video-generation.md)
 - [2026-01-25] [Building Agents with Skills - Anthropic 官方 Agent Skills 技术博客](./ai-tools/agent-skill/2026-01-25-anthropic-building-agents-with-skills.md) 🆕
 - [2026-01-25] [VideoCut-Skills - AI 口播视频剪辑 Skill](./ai-tools/agent-skill/2026-01-25-videocut-skills-ai-video-editing.md) 🆕
 - [2026-01-25] [Skill From Masters - 三位一体技能生成系统](./ai-tools/agent-skill/2026-01-25-skill-from-masters-trinity-skill-generator.md) 🆕
