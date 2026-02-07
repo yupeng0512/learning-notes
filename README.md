@@ -1,17 +1,17 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-02-05
+> 最后更新：2026-02-07
 
 ## 快速统计
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **97** |
+| 🤖 AI 工具与效率 | | **100** |
 | | └─ AI IDE | 12 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
-| | └─ Agent & Skill | 31 |
-| | └─ Agent 架构 | 7 |
+| | └─ Agent & Skill | 33 |
+| | └─ Agent 架构 | 8 |
 | | └─ Vibe Engineering | 1 |
 | | └─ Team Collaboration | 1 |
 | | └─ Web Scraping | 1 |
@@ -39,7 +39,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：117 篇笔记**
+**总计：120 篇笔记**
 
 ---
 
@@ -47,8 +47,11 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
-| 2026-02-05 | OpenClaw 深度使用 6 大实战技巧 | Agent & Skill | [查看](./ai-tools/agent-skill/20260205-openclaw-6-practical-tips.md) |
-| 2026-02-05 | Pathways: Google's New ML System | AI 研究 / 深度研究 | [查看](./ai-research/deep-research/20260205-pathways-google-ml-system.md) |
+| 2026-02-07 | SOUL.md：AI 通过文本构建身份认同的哲学思考 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-02-07-soul-md-ai-identity-document.md) |
+| 2026-02-07 | Agent Skills：AI Agent 的开放能力扩展格式 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-07-agent-skills-open-format-specification.md) |
+| 2026-02-05 | Agent 蜂群：从单体到群体智能的进化 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-05-agent-swarm-research.md) |
+| 2026-02-05 | OpenClaw 深度使用 6 大实战技巧 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-05-openclaw-6-practical-tips.md) |
+| 2026-02-05 | Pathways: Google's New ML System | AI 研究 / 深度研究 | [查看](./ai-research/deep-research/2026-02-05-pathways-google-ml-system.md) |
 | 2026-02-04 | Skill From Masters 三条路径方法论 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-03-skill-from-masters-三条路径方法论.md) |
 | 2026-01-29 | Anthropic：为 AI Agent 编写高效工具的实践指南 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-writing-effective-tools-for-agents.md) |
 | 2026-01-29 | Anthropic：有效的上下文工程实践 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-01-29-anthropic-effective-context-engineering.md) |
@@ -160,7 +163,10 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
-- [2026-02-05] [OpenClaw 深度使用 6 大实战技巧](./ai-tools/agent-skill/20260205-openclaw-6-practical-tips.md) 🆕
+- [2026-02-07] [SOUL.md：AI 通过文本构建身份认同的哲学思考](./ai-tools/agent-architecture/2026-02-07-soul-md-ai-identity-document.md) 🆕
+- [2026-02-07] [Agent Skills：AI Agent 的开放能力扩展格式](./ai-tools/agent-skill/2026-02-07-agent-skills-open-format-specification.md) 🆕
+- [2026-02-05] [Agent 蜂群：从单体到群体智能的进化](./ai-tools/agent-skill/2026-02-05-agent-swarm-research.md) 🆕
+- [2026-02-05] [OpenClaw 深度使用 6 大实战技巧](./ai-tools/agent-skill/2026-02-05-openclaw-6-practical-tips.md) 🆕
 - [2026-01-25] [Remotion Skill：让 AI 成为视频制作专家](./ai-tools/agent-skill/2026-01-25-remotion-skill-ai-video-generation.md)
 - [2026-01-25] [Building Agents with Skills - Anthropic 官方 Agent Skills 技术博客](./ai-tools/agent-skill/2026-01-25-anthropic-building-agents-with-skills.md) 🆕
 - [2026-01-25] [VideoCut-Skills - AI 口播视频剪辑 Skill](./ai-tools/agent-skill/2026-01-25-videocut-skills-ai-video-editing.md) 🆕
@@ -299,7 +305,7 @@
 #### 📊 深度研究 (`ai-research/deep-research/`)
 > 深度研究模型、多智能体蒸馏、Agentic RL
 
-- [2026-02-05] [Pathways: Google's New ML System](./ai-research/deep-research/20260205-pathways-google-ml-system.md) 🆕
+- [2026-02-05] [Pathways: Google's New ML System](./ai-research/deep-research/2026-02-05-pathways-google-ml-system.md) 🆕
 - [2026-01-19] [O-Researcher - OPPO 开源深度研究模型](./ai-research/deep-research/2026-01-19-o-researcher-oppo-open-deep-research.md)
 
 #### 🌐 翻译模型 (`ai-research/translation/`)
