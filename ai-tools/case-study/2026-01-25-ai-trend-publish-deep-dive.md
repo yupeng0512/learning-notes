@@ -183,7 +183,7 @@ configManager.addSource(new DbConfigSource());    // 覆盖
 │
 ├─ 推论2: 处理层——AI 双引擎协作
 │   ├─ LLM 评分：5 维标准，实用价值权重最高（45/100）
-│   ├─ Embedding 去重：向量化 → 余弦相似度 → 阈值过滤
+│   ├─ Embedding 去重：向量化 → 余弦相似度 → 0.85 阈值过滤（DashScope text-embedding-v3）
 │   ├─ LLM 摘要：扩写润色（非简单摘要），补充背景上下文
 │   └─ Prompt 与逻辑分离，独立目录管理
 │
@@ -264,6 +264,53 @@ configManager.addSource(new DbConfigSource());    // 覆盖
 - [ ] 实现 LLM 排序模块（复用 Prompt 模板）
 - [ ] 实现发布到常用平台（Telegram / 飞书 / 邮件）
 - [ ] 添加定时调度 + Docker 部署
+
+---
+
+## 完整工作流 9 步详解
+
+> 源自 `src/services/weixin-article.workflow.ts` —— 核心主工作流
+
+| 步骤 | step.do ID | 功能 | 重试策略 | 超时 |
+|------|-----------|------|---------|------|
+| 1 | `validate-ip-whitelist` | 验证服务器 IP 是否在微信公众号白名单 | 3次/10s/指数退避 | 10min |
+| 2 | `fetch-sources` | 获取数据源配置（FireCrawl + Twitter） | 默认 | 默认 |
+| 3 | `scrape-contents` | 并行采集所有数据源内容 | 3次/10s/指数退避 | 10min |
+| 4 | `dedup-contents` | Embedding 向量去重（余弦相似度 ≥ 0.85 判定重复） | 2次/5s/指数退避 | 15min |
+| 5 | `rank-contents` | LLM 内容打分排序 | 2次/5s/指数退避 | 5min |
+| 6 | `process-contents` | 取 Top N 文章，AI 摘要润色（并行处理） | 2次/5s/指数退避 | 15min |
+| 7 | `generate-article` | 生成总标题 + AI 封面图（万象海报模式） + 渲染 EJS 模板 | 2次/5s/指数退避 | 10min |
+| 8 | `publish-article` | 发布到微信公众号草稿箱 | 3次/10s/指数退避 | 5min |
+| 9 | 完成报告 | 统计汇总 + 多渠道通知（成功/部分失败/失败） | - | - |
+
+**关键工程细节**：
+- 向量去重使用 `VectorSimilarityUtil.cosineSimilarity()` + 0.85 阈值，去重后的向量批量存入数据库，实现跨天去重
+- 封面图使用阿里万象 `ALIWANX_POSTER` 模式，根据标题动态生成
+- 总标题格式：`{日期} AI速递 | {LLM生成的标题}`，截断 64 字符
+- 每步都有 `ProgressBar` 进度显示
+- `WorkflowTerminateError` 区分可恢复错误和不可恢复的终止错误
+
+---
+
+## Jina AI 集成
+
+项目支持 Jina AI 作为额外的 Scraper 和 Embedding 提供者：
+- **JinaScraper**：通过 Jina Reader API 将任意 URL 转为 LLM 友好的纯文本
+- **Jina Embedding**：可替代 DashScope 做文本向量化
+- **Jina Reranking**：对搜索结果重排序
+- 需要配置 `JINA_API_KEY` 环境变量
+
+---
+
+## 生产部署最佳实践
+
+| 部署方式 | 适用场景 | 命令 |
+|---------|---------|------|
+| Docker | 推荐生产部署 | `docker build -t ai-trend-publish . && docker run -d --env-file .env` |
+| PM2 进程管理 | 长期运行、自动重启 | `pm2 start --interpreter="deno" --interpreter-args="run --allow-all" src/main.ts` |
+| CI/CD | 自动化部署 | GitHub Actions → SSH 到服务器 → 自动拉取并重启 |
+
+**多模型配置技巧**：支持管道符 `|` 配置多模型，如 `DEEPSEEK_MODEL="deepseek-chat|deepseek-reasoner"`，可指定特定任务使用特定模型：`AI_CONTENT_RANKER_LLM_PROVIDER="DEEPSEEK:deepseek-reasoner"`。
 
 ---
 
