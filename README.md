@@ -6,7 +6,7 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **100** |
+| 🤖 AI 工具与效率 | | **101** |
 | | └─ AI IDE | 12 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
@@ -21,7 +21,7 @@
 | | └─ 效率工具 | 11 |
 | | └─ AI 生产力 | 6 |
 | | └─ Prompt 工程 | 2 |
-| | └─ 开发案例 | 3 |
+| | └─ 开发案例 | 4 |
 | | └─ 行业洞察 | 5 |
 | | └─ OSINT 工具 | 1 |
 | | └─ 职业发展 | 1 |
@@ -39,7 +39,7 @@
 | 🌱 自我成长 | | **1** |
 | | └─ 行为改变 | 1 |
 
-**总计：120 篇笔记**
+**总计：121 篇笔记**
 
 ---
 
@@ -48,6 +48,7 @@
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
 | 2026-02-07 | SOUL.md：AI 通过文本构建身份认同的哲学思考 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-02-07-soul-md-ai-identity-document.md) |
+| 2026-01-25 | TrendPublish - AI 内容工厂流水线深度精读 | 开发案例 | [查看](./ai-tools/case-study/2026-01-25-ai-trend-publish-deep-dive.md) |
 | 2026-02-07 | Agent Skills：AI Agent 的开放能力扩展格式 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-07-agent-skills-open-format-specification.md) |
 | 2026-02-05 | Agent 蜂群：从单体到群体智能的进化 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-05-agent-swarm-research.md) |
 | 2026-02-05 | OpenClaw 深度使用 6 大实战技巧 | Agent & Skill | [查看](./ai-tools/agent-skill/2026-02-05-openclaw-6-practical-tips.md) |
@@ -253,6 +254,7 @@
 #### 📖 开发案例 (`ai-tools/case-study/`)
 > 实战案例、项目复盘
 
+- [2026-01-25] [TrendPublish - AI 内容工厂流水线深度精读](./ai-tools/case-study/2026-01-25-ai-trend-publish-deep-dive.md) 🆕
 - [2026-01-07] [八千字长文复盘「中国故事」诞生过程](./ai-tools/case-study/2026-01-07-antigravity-app-development-case-study.md)
 - [2026-01-04] [GitHub 开源项目精读（5 个 AI/开发工具）](./ai-tools/case-study/2026-01-04-github-projects-batch.md)
 - [2026-01-04] [苏格拉底式提问与 AskUserQuestion](./ai-tools/case-study/2026-01-04-askuserquestion-socratic-method.md)
