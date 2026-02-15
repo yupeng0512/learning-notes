@@ -322,6 +322,17 @@ tmux 的所有设计决策都可以从这个根节点推导：
 | **Format** | `#{}` 模板语法，用于动态内容 | JavaScript 模板字面量 |
 | **Tree mode** | 交互式浏览 Session/Window/Pane 的界面 | 文件管理器树形视图 |
 
+### 进阶特性速览
+
+| 特性 | 说明 | 关键命令/选项 |
+|------|------|---------------|
+| **Control Mode** | tmux 输出机器可读格式，用于 IDE/GUI 集成（如 iTerm2 的 tmux 集成） | `tmux -CC` 启动 |
+| **Modifier Keys** | 支持扩展修饰键（extended-keys），让终端能发送更多组合键 | `set -s extended-keys on` |
+| **Hooks** | 在特定事件（窗口创建、面板关闭等）时自动执行命令 | `set-hook after-new-window 'command'` |
+| **Popup** | 在当前面板上方显示浮动弹窗（tmux 3.2+） | `display-popup -E 'command'` |
+| **Menus** | 自定义右键/快捷键菜单 | `display-menu` |
+| **Custom key tables** | 创建自定义快捷键表，实现多层快捷键 | `bind -T mytable ...` |
+
 ### 关键配置选项
 
 | 选项 | 默认值 | 作用 |
