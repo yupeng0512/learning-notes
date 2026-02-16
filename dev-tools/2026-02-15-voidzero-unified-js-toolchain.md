@@ -171,6 +171,22 @@ type: knowledge
 | Ramp 构建提升 | 减少 57% |
 | Rolldown RC 提交 | 3,400+ commits（749 features, 682 fixes, 109 perf） |
 
+### 竞品对比
+
+| 维度 | VoidZero (Vite+) | Vercel (Turbopack) | Biome | Bun |
+|------|-------------------|-------------------|-------|-----|
+| **定位** | 统一 JS 工具链 | Next.js 打包器 | Linter + Formatter | JS 运行时 + 打包器 |
+| **语言** | Rust | Rust | Rust | Zig |
+| **打包器** | Rolldown（独立可用） | Turbopack（绑定 Next.js） | 无 | 内置 bundler |
+| **Linter** | Oxlint（600+ 规则） | 无 | biome lint | 无 |
+| **Formatter** | Oxfmt（Prettier 100%） | 无 | biome format（有差异） | 无 |
+| **测试** | Vitest（Jest 兼容） | 无 | 无 | bun test（Jest 部分兼容） |
+| **框架绑定** | 框架无关 | Next.js 绑定 | 框架无关 | 框架无关 |
+| **生态兼容** | Rollup/ESLint/Prettier/Jest API | Webpack API（部分） | 自有 API | Node.js 兼容 |
+| **开源** | MIT（基础设施） | MIT | MIT | MIT |
+
+**VoidZero 的独特优势**：唯一一个覆盖 dev/build/test/lint/fmt/lib 全链路的统一方案，且每个环节都兼容现有生态。
+
 ---
 
 ## 推论深度展开
