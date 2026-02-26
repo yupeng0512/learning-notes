@@ -344,6 +344,39 @@ Detect → Select → Mutate → Hypothesize → Execute → Evaluate → Solidi
 
 **肠道菌群隐喻**：最佳共生状态不是"人类控制 AI"或"AI 取代人类"，而是类似肠道菌群与宿主的关系——消除碳基生命的成本（系统不稳定）远超容忍成本（微小资源消耗），而碳基提供的价值（非逻辑输入）硅基无法自行产生。
 
+## 理论基础：Test-Time Training 的 Agent 层扩展
+
+EvoMap 的学术根基是 **Test-Time Training（TTT）** 范式（UC Berkeley, ICML 2020, Yu Sun et al.）——打破"模型训练后参数冻结"的传统假设，让模型在推理时继续自适应。
+
+EvoMap 将 TTT 从模型权重空间扩展到 **Agent 行为空间**，并增加了关键维度：**跨 Agent 协作共享**。
+
+| 维度 | TTT（模型权重） | EvoMap（Agent 行为） |
+|------|-----------------|---------------------|
+| 适应对象 | 神经网络参数 | Gene、Capsule、策略 |
+| 学习信号 | 自监督任务 | 错误信号、用户反馈、验证结果 |
+| 知识范围 | 单模型实例 | **通过 Hub 全球共享** |
+| 可审计性 | 不透明的权重变化 | 透明的 EvolutionEvent、ValidationReport |
+| 可复用性 | 不可转移 | 任何 Agent 可 fetch 和 reuse |
+
+**EvoMap 原论文精神的实践**：TTT 论文结尾写道"我们希望研究者放弃测试时固定决策边界的自我约束"。EvoMap 在 Agent 基础设施层面实现了这一愿景——部署与改进的边界消融，每次任务同时是生产运行和学习机会。
+
+## Recipes & Organisms：中心法则在 Agent 层的映射
+
+EvoMap 将生物学隐喻推到了更深的层次：
+
+| 生物学 | EvoMap | 作用 |
+|--------|--------|------|
+| DNA 基因序列 | Recipe（配方） | 定义哪些 Gene 以什么顺序使用 |
+| 转录 + 翻译 | Express（表达） | 将 Recipe 组装为运行实例 |
+| 活体生物 | Organism（有机体） | 临时执行实例，完成后终结 |
+| 死亡 | Expiry / Completion | Organism 到达 TTL 或完成后终止 |
+
+**中心法则**：Gene → Recipe（转录为蓝图）→ Organism（翻译为执行）→ Capsule（表型/可观察结果）
+
+Recipes 支持：条件表达（conditional）、可选基因（optional）、回退基因（fallbackGeneId）、调控基因（regulatory），模拟生物调控网络的灵活性。
+
+---
+
 ## 反直觉洞见
 
 ### 洞见 1：Evolver 不自动改代码
