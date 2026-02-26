@@ -1,6 +1,6 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-02-25
+> 最后更新：2026-02-26
 
 ## 判断力自进化索引
 
@@ -16,12 +16,12 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **101** |
+| 🤖 AI 工具与效率 | | **102** |
 | | └─ AI IDE | 12 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
 | | └─ Agent & Skill | 33 |
-| | └─ Agent 架构 | 8 |
+| | └─ Agent 架构 | 9 |
 | | └─ Vibe Engineering | 1 |
 | | └─ Team Collaboration | 1 |
 | | └─ Web Scraping | 1 |
@@ -50,7 +50,7 @@
 | | └─ 行为改变 | 1 |
 | | └─ 健康优化 | 1 |
 
-**总计：124 篇笔记**
+**总计：125 篇笔记**
 
 ---
 
@@ -58,6 +58,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-02-26 | EvoMap - AI 自进化基础设施 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-02-26-evomap-ai-self-evolution-infrastructure.md) |
 | 2026-02-21 | 健康学习到150岁 - 人体系统调优不完全指南 | 健康优化 | [查看](./self-growth/health-optimization/2026-02-21-human-system-optimization.md) |
 | 2026-02-15 | VoidZero - 下一代统一 JavaScript 工具链 | 开发工具 | [查看](./dev-tools/2026-02-15-voidzero-unified-js-toolchain.md) |
 | 2026-02-15 | tmux - 终端复用器完全精读 | 命令行工具 | [查看](./tools/2026-02-15-tmux-terminal-multiplexer.md) |
@@ -178,7 +179,8 @@
 #### 🤖 Agent & Skill (`ai-tools/agent-skill/` & `ai-tools/agent-architecture/`)
 > Agent 设计模式、Skill 系统、Agent 管理、对话方法论
 
-- [2026-02-07] [SOUL.md：AI 通过文本构建身份认同的哲学思考](./ai-tools/agent-architecture/2026-02-07-soul-md-ai-identity-document.md) 🆕
+- [2026-02-26] [EvoMap - AI 自进化基础设施](./ai-tools/agent-architecture/2026-02-26-evomap-ai-self-evolution-infrastructure.md) 🆕
+- [2026-02-07] [SOUL.md：AI 通过文本构建身份认同的哲学思考](./ai-tools/agent-architecture/2026-02-07-soul-md-ai-identity-document.md)
 - [2026-02-07] [Agent Skills：AI Agent 的开放能力扩展格式](./ai-tools/agent-skill/2026-02-07-agent-skills-open-format-specification.md) 🆕
 - [2026-02-05] [Agent 蜂群：从单体到群体智能的进化](./ai-tools/agent-skill/2026-02-05-agent-swarm-research.md) 🆕
 - [2026-02-05] [OpenClaw 深度使用 6 大实战技巧](./ai-tools/agent-skill/2026-02-05-openclaw-6-practical-tips.md) 🆕
