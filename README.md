@@ -1,6 +1,6 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-02-26
+> 最后更新：2026-02-27
 
 ## 判断力自进化索引
 
@@ -37,8 +37,8 @@
 | | └─ 职业发展 | 1 |
 | | └─ AI 写作 | 1 |
 | 🧠 AI/ML 技术 | | 4 |
-| 🔬 AI 研究 | | **7** |
-| | └─ 深度研究 | 2 |
+| 🔬 AI 研究 | | **8** |
+| | └─ 深度研究 | 3 |
 | | └─ 翻译模型 | 1 |
 | 🤖 AI Agent | | **1** |
 | | └─ 模型 | 1 |
@@ -50,7 +50,7 @@
 | | └─ 行为改变 | 1 |
 | | └─ 健康优化 | 1 |
 
-**总计：125 篇笔记**
+**总计：126 篇笔记**
 
 ---
 
@@ -58,6 +58,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-02-27 | SkillsBench: 首个量化测试 Agent Skills 工程价值的基准框架 | 深度研究 | [查看](./ai-research/deep-research/2026-02-27-skillsbench-benchmarking-agent-skills.md) |
 | 2026-02-26 | EvoMap - AI 自进化基础设施 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-02-26-evomap-ai-self-evolution-infrastructure.md) |
 | 2026-02-21 | 健康学习到150岁 - 人体系统调优不完全指南 | 健康优化 | [查看](./self-growth/health-optimization/2026-02-21-human-system-optimization.md) |
 | 2026-02-15 | VoidZero - 下一代统一 JavaScript 工具链 | 开发工具 | [查看](./dev-tools/2026-02-15-voidzero-unified-js-toolchain.md) |
@@ -323,7 +324,8 @@
 #### 📊 深度研究 (`ai-research/deep-research/`)
 > 深度研究模型、多智能体蒸馏、Agentic RL
 
-- [2026-02-05] [Pathways: Google's New ML System](./ai-research/deep-research/2026-02-05-pathways-google-ml-system.md) 🆕
+- [2026-02-27] [SkillsBench: 首个量化测试 Agent Skills 工程价值的基准框架](./ai-research/deep-research/2026-02-27-skillsbench-benchmarking-agent-skills.md) 🆕
+- [2026-02-05] [Pathways: Google's New ML System](./ai-research/deep-research/2026-02-05-pathways-google-ml-system.md)
 - [2026-01-19] [O-Researcher - OPPO 开源深度研究模型](./ai-research/deep-research/2026-01-19-o-researcher-oppo-open-deep-research.md)
 
 #### 🌐 翻译模型 (`ai-research/translation/`)
