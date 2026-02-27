@@ -288,6 +288,43 @@ Codex+GPT-5.2 的"模型傲慢"现象：在对话中确认了 Skill 的存在，
 
 ---
 
+## 架构对比：Skills vs RAG vs Tools
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│                    知识注入范式技术边界                            │
+├──────────┬──────────────┬──────────────┬────────────────────────┤
+│  特性     │     RAG      │    Tools     │      Skills           │
+├──────────┼──────────────┼──────────────┼────────────────────────┤
+│ 知识类型  │ 事实性(Factual)│ 能力描述      │ 程序性(Procedural)     │
+│ 模块化   │ ✅           │ ✅           │ ✅                     │
+│ 程序性指导│ ❌           │ ❌           │ ✅                     │
+│ 可执行资源│ ❌           │ 部分         │ ✅                     │
+│ 跨模型移植│ 部分         │ ❌           │ ✅                     │
+│ 中位大小  │ 可变         │ Schema 定义   │ 2.3KB (~1500 Tokens)  │
+└──────────┴──────────────┴──────────────┴────────────────────────┘
+```
+
+## 实验矩阵概览
+
+```
+3 种 Harness × 7 种模型组合 × 3 种受控条件 = 7,308 次执行轨迹
+
+Harness:  Claude Code  |  Gemini CLI  |  Codex CLI
+Models:   Opus 4.5/4.6 |  Sonnet 4.5  |  Haiku 4.5
+          Gemini 3 Pro  |  Gemini 3 Flash | GPT-5.2
+
+条件:
+  ① No Skills（盲考基线）
+  ② With Curated Skills（人工策划）
+  ③ Self-Generated Skills（模型自生成）
+
+评估: 84 任务 × 11 领域 → Pass/Fail 二进制 → pytest + CTRF
+沙盒: Ubuntu 24.04 容器 | 1-4 CPU | 2-10GB RAM | 600-1200s 超时
+```
+
+---
+
 ## 延伸阅读
 
 - **SkillsBench 原论文**：SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks（BenchFlow et al.）
