@@ -1,6 +1,6 @@
 # 📚 学习笔记索引
 
-> 最后更新：2026-02-27
+> 最后更新：2026-03-02
 
 ## 判断力自进化索引
 
@@ -16,7 +16,7 @@
 
 | 分类 | 子分类 | 笔记数量 |
 |------|--------|----------|
-| 🤖 AI 工具与效率 | | **102** |
+| 🤖 AI 工具与效率 | | **103** |
 | | └─ AI IDE | 12 |
 | | └─ Claude Code | 2 |
 | | └─ MCP 工具 | 5 |
@@ -31,7 +31,7 @@
 | | └─ 效率工具 | 11 |
 | | └─ AI 生产力 | 6 |
 | | └─ Prompt 工程 | 2 |
-| | └─ 开发案例 | 4 |
+| | └─ 开发案例 | 5 |
 | | └─ 行业洞察 | 5 |
 | | └─ OSINT 工具 | 1 |
 | | └─ 职业发展 | 1 |
@@ -50,7 +50,7 @@
 | | └─ 行为改变 | 1 |
 | | └─ 健康优化 | 1 |
 
-**总计：126 篇笔记**
+**总计：127 篇笔记**
 
 ---
 
@@ -58,6 +58,7 @@
 
 | 日期 | 标题 | 分类 | 链接 |
 |------|------|------|------|
+| 2026-03-02 | OpenClaw + Codex/CC 双层 AI Agent 系统：一人 94 次提交的实战架构 | 开发案例 | [查看](./ai-tools/case-study/2026-03-02-openclaw-codex-dual-layer-agent-system.md) |
 | 2026-02-27 | SkillsBench: 首个量化测试 Agent Skills 工程价值的基准框架 | 深度研究 | [查看](./ai-research/deep-research/2026-02-27-skillsbench-benchmarking-agent-skills.md) |
 | 2026-02-26 | EvoMap - AI 自进化基础设施 | Agent 架构 | [查看](./ai-tools/agent-architecture/2026-02-26-evomap-ai-self-evolution-infrastructure.md) |
 | 2026-02-21 | 健康学习到150岁 - 人体系统调优不完全指南 | 健康优化 | [查看](./self-growth/health-optimization/2026-02-21-human-system-optimization.md) |
@@ -271,7 +272,8 @@
 #### 📖 开发案例 (`ai-tools/case-study/`)
 > 实战案例、项目复盘
 
-- [2026-01-25] [TrendPublish - AI 内容工厂流水线深度精读](./ai-tools/case-study/2026-01-25-ai-trend-publish-deep-dive.md) 🆕
+- [2026-03-02] [OpenClaw + Codex/CC 双层 AI Agent 系统：一人 94 次提交的实战架构](./ai-tools/case-study/2026-03-02-openclaw-codex-dual-layer-agent-system.md) 🆕
+- [2026-01-25] [TrendPublish - AI 内容工厂流水线深度精读](./ai-tools/case-study/2026-01-25-ai-trend-publish-deep-dive.md)
 - [2026-01-07] [八千字长文复盘「中国故事」诞生过程](./ai-tools/case-study/2026-01-07-antigravity-app-development-case-study.md)
 - [2026-01-04] [GitHub 开源项目精读（5 个 AI/开发工具）](./ai-tools/case-study/2026-01-04-github-projects-batch.md)
 - [2026-01-04] [苏格拉底式提问与 AskUserQuestion](./ai-tools/case-study/2026-01-04-askuserquestion-socratic-method.md)
