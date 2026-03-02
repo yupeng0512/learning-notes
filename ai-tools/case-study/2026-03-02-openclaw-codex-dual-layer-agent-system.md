@@ -105,6 +105,83 @@ tags: [OpenClaw, Codex, Claude Code, Agent 编排, 双层架构, 独立开发者
 
 ---
 
+## 完整工作流：从客户需求到 PR 合并的 8 步
+
+```
+客户需求 ──→ ① Zoe 理解拆解（零解释成本，已读会议记录）
+                │
+                ├─ 给客户充值（管理员 API）
+                ├─ 拉取客户配置（生产 DB 只读）
+                └─ 生成 prompt 并启动 Agent
+                        │
+                        ▼
+              ② 启动 Agent（git worktree + tmux）
+                        │
+                        ▼
+              ③ 自动监控（cron 每 10 分钟，确定性检查）
+                ├─ tmux 会话存活？
+                ├─ PR 已创建？
+                ├─ CI 状态？
+                └─ 失败 → 最多重试 3 次
+                        │
+                        ▼
+              ④ Agent 创建 PR（gh pr create --fill）
+                        │
+                        ▼
+              ⑤ 三重 Code Review
+                ├─ Codex：逻辑/边界/竞态（最靠谱）
+                ├─ Gemini：安全/扩展性（免费）
+                └─ Claude Code：过度谨慎（基本跳过）
+                        │
+                        ▼
+              ⑥ 自动化 CI 测试
+                ├─ Lint + TypeScript
+                ├─ 单元测试 + E2E
+                ├─ Playwright（预览环境）
+                └─ UI 截图规则（无截图 → CI 失败）
+                        │
+                        ▼
+              ⑦ 人工 Review（5-10 分钟，Telegram 通知）
+                └─ 很多 PR 只看截图就合并
+                        │
+                        ▼
+              ⑧ 合并 + 清理（cron 清理孤立 worktree）
+```
+
+**关键代码片段**：
+
+```bash
+# 创建隔离环境
+git worktree add ../feat-custom-templates -b feat/custom-templates origin/main
+cd ../feat-custom-templates && pnpm install
+
+# 启动 Agent（tmux 后台运行）
+tmux new-session -d -s "codex-templates" \
+  -c "/path/to/worktree/feat-custom-templates" \
+  "$HOME/.codex-agent/run-agent.sh templates gpt-5.3-codex high"
+
+# 中途干预（不杀进程，直接发指令）
+tmux send-keys -t codex-templates "停一下。先做 API 层,别管 UI。" Enter
+```
+
+**任务状态记录（JSON）**：
+```json
+{
+  "id": "feat-custom-templates",
+  "tmuxSession": "codex-templates",
+  "agent": "codex",
+  "description": "企业客户的自定义邮件模板功能",
+  "repo": "medialyst",
+  "worktree": "feat-custom-templates",
+  "branch": "feat/custom-templates",
+  "startedAt": 1740268800000,
+  "status": "running",
+  "notifyOnComplete": true
+}
+```
+
+---
+
 ## 推论深度展开
 
 ### 推论 1：为什么"上下文窗口固定"是根本性的约束？
